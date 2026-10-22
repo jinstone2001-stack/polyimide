@@ -1,0 +1,86 @@
+{
+  "created_local_date": "2026-10-22",
+  "timezone": "Asia/Seoul",
+  "source_url": "https://huggingface.co/datasets/yhayashi1986/PolyOmics",
+  "source_license": "CC-BY-4.0",
+  "source_files": [
+    {
+      "path": "huggingface\\all_data.csv",
+      "sha256": "8e847e1d7ae7542acd9eea6b3374e6ad1b2ab3e0a943c8e952451bf6a12c3794"
+    },
+    {
+      "path": "2511.11626v1.pdf",
+      "sha256": "0f53f21129b172396901d078948158390805c78fd53195c3df52ff4e9a6b0c8a"
+    },
+    {
+      "path": "huggingface\\README.md",
+      "sha256": "c2340252a720f7b9f56fcc368105d9e1e351c2bd75f31a364f7c2afcb5a6cc13"
+    },
+    {
+      "path": "Radonpy\\radonpy\\core\\poly.py",
+      "sha256": "1cb8ce58358a9a129435b7cf9af4d529941e7f176dad2eeb5aa355231e077cf8"
+    },
+    {
+      "path": "Radonpy\\radonpy\\sim\\preset\\ef_dp.py",
+      "sha256": "c3746a8ada96370f0bf62e15719ec920c2c94547ad85a56beb944d02987f8fe6"
+    },
+    {
+      "path": "Radonpy\\AutoMD_scripts\\6_ef_dp.py",
+      "sha256": "0d459a98f27b639c9dcb135eb341883039fd63bda38f40f1043271396d9b8b57"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "imide_10GHz_dielectric.csv",
+      "sha256": "dfad64051e9a6fcee8d66059dfa37e0d17686c1e132fafdadb86c27586daec89",
+      "bytes": 97106
+    },
+    {
+      "path": "imide_all_dielectric_related.csv",
+      "sha256": "5f83fc6e53d7ec341f90ff34a4abd5910e5f42b80a734162ed6222f9ab6177d9",
+      "bytes": 49360976
+    }
+  ],
+  "rdkit_version": "2026.09.1",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "script_files": [
+    {
+      "path": "scripts\\classify_imides.py",
+      "sha256": "83d9c3a240de3b65112e6b0f92127345eb96f081067293f34ed28c9fe1a46f06"
+    },
+    {
+      "path": "scripts\\export_imides.py",
+      "sha256": "5b60451d2dbe0c8b4108aacbd643ea0e1ab7707cde56b70bc777b0555b4b49e1"
+    },
+    {
+      "path": "scripts\\finalize_catalog.py",
+      "sha256": "e8794915c371c7a9cf0f416a895ae974841d647f7e4e048d2f1ad0b9dbf896e5"
+    },
+    {
+      "path": "scripts\\profile_source.py",
+      "sha256": "7cdfe40afcb1f876ca62273c663828959532d44f37b016e621d2e41342ebf9bb"
+    },
+    {
+      "path": "scripts\\review_final.py",
+      "sha256": "fa5dd4d3dbe9e6ccd695c036641fc33e7242e9395be4017f8bc909831dcfe404"
+    }
+  ],
+  "documentation": [
+    {
+      "path": "README_ko.md",
+      "sha256": "885a20b1be528b2f4adfcd1ebc0f85c423c0d3ef432de2025ec88abf1dff2f69"
+    },
+    {
+      "path": "validation_summary.json",
+      "sha256": "8f682073c397d29da757bc1813d43e595d09468a2517912771e08487a291e57a"
+    },
+    {
+      "path": "independent_review.json",
+      "sha256": "ae46a904f8fe3d776e9aa9f17e4d17d16e989cc5b91a149a01375322fac63894"
+    },
+    {
+      "path": "column_dictionary.json",
+      "sha256": "d6c367cc82035d6b4667172158a77af51f2c50246e24bdfb9768f85fc2fb419d"
+    }
+  ]
+}

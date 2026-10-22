@@ -1,0 +1,19 @@
+{
+  "total": 176096,
+  "polymer_rows": 147934,
+  "multiple_component_polymer_rows": 50664,
+  "dp_gt1_without_dummy": 0,
+  "dp_missing_with_dummy": 3,
+  "component1_present_missing_ratio": 0,
+  "component2_present_missing_ratio": 0,
+  "component3_present_missing_ratio": 0,
+  "component4_present_missing_ratio": 0,
+  "unique_polymer_components": 89815,
+  "n_bearing_dummy_counts": {
+    "1": 8292,
+    "2": 41828,
+    "4": 419
+  },
+  "invalid_unique_component_smiles": [],
+  "relaxed_only_motifs": []
+}

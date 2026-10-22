@@ -1,0 +1,16 @@
+{
+  "source_rows": 176096,
+  "imide_polymer_rows": 14909,
+  "excluded_candidates": 1851,
+  "rule_tests_passed": 12,
+  "invalid_component_rows": 0,
+  "polymer_rows": 147934,
+  "detection_basis": {
+    "repeat_unit": 12985,
+    "linear_trimer_boundary": 1924
+  },
+  "original_pimd_included": 9956,
+  "dynamic_rows": 59,
+  "conventional_rows": 11685,
+  "cyclic_rows": 11954
+}

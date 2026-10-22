@@ -1,0 +1,2 @@
+output/** -text
+output/imide_dielectric/notes/classification_audit.jsonl filter=lfs diff=lfs merge=lfs -text

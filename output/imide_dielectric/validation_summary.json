@@ -1,0 +1,46 @@
+{
+  "source_rows": 176096,
+  "source_columns": 263,
+  "imide_rows": 14909,
+  "dynamic_imide_rows": 59,
+  "full_export_columns": 299,
+  "dynamic_export_columns": 75,
+  "source_values_exactly_preserved_rows": 14909,
+  "source_value_mismatches": [],
+  "uuid_duplicates_full": 0,
+  "uuid_duplicates_dynamic": 0,
+  "unique_canonical_smiles1_full": 7613,
+  "duplicate_canonical_smiles1_rows": 7296,
+  "source_dynamic_rows": 1084,
+  "global_imaginary_matches_division": 1084,
+  "global_imaginary_matches_product": 0,
+  "full_static_available": 14909,
+  "full_corrected_static_available": 14773,
+  "full_polarizability_monomer1_available": 14774,
+  "full_check_eq_false": 0,
+  "dynamic_check_eq_false": 0,
+  "dynamic_nonpositive_real": 0,
+  "dynamic_negative_tan": 0,
+  "dynamic_conventional_carboximide": 51,
+  "full_conventional_carboximide": 11685,
+  "full_source_PIMD_true": 9956,
+  "full_source_PIMD_false": 4953,
+  "full_source_PIMD_blank": 0,
+  "source_pimd_excluded": 98,
+  "excluded_nonpolymer_oxygen_imide": 1753,
+  "excluded_polymer_thio_only": 98,
+  "frequency_direct_verification_available": false,
+  "checks_passed": true,
+  "dynamic_real_range": [
+    2.364277536,
+    3.728151447
+  ],
+  "dynamic_tan_range": [
+    0.000387191,
+    0.042870642
+  ],
+  "detection_basis": {
+    "repeat_unit": 12985,
+    "linear_trimer_boundary": 1924
+  }
+}

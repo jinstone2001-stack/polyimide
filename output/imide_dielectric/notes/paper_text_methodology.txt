@@ -1,0 +1,2454 @@
+=== PDF PAGE 1 ===
+1 
+ 
+Omics-scale polymer computational database transferable to real-world 
+artificial intelligence applications  
+The RadonPy consortium  
+R yo Y oshida1,2,3*† , Y oshihiro Hayashi1,2,3*† , Hidemine Furuya4, R yohei Hosoya4, Kazuyoshi Kaneko 5, Hiroki Sugisawa 6, 
+Y u Kaneko7, Aiko Takahashi1, Y oh Noguchi1,8, Shun Nanjo3, Keiko Shinoda 1, Tomu Hamakawa1, Mitsuru Ohno 7, 
+Takuya Kitamura9, Misaki Y onekawa9, Stephen Wu 1,3, Masato Ohnishi 1, Chang Liu1,2, Teruki Tsurimoto10, Arifin11, 
+Araki Wakiuchi11, Kohei Noda 11, Junko Morikawa4, Teruaki Hayakawa 4, Junichiro Shiomi 1,2,12,13,14 , Masanobu Naito 2,15, 
+Kazuya Shiratori6, Tomoki Nagai 11, Norio Tomotsu 16, Hiroto Inoue 17, R yuichi Sakashita17, Masashi Ishii 18, Isao 
+Kuwajima18, Kenji Furuichi 19, Norihiko Hiroi19, Y uki Takemoto19, Takahiro Ohkuma20, Keita Y amamoto21, Naoya 
+Kowatari5, Masato Suzuki 5, Naoya Matsumoto 5, Seiryu Umetani22, Hisaki Ikebata 23, Y asuyuki Shudo24, Mayu Nagao 24, 
+Shinya Kamada24, Kazunori Kamio 22, Taichi Shomura 22, Kensaku Nakamura 22, Y udai Iwamizu22, Atsutoshi Abe 22, Koki 
+Y oshitomi22, Y uki Horie22, Katsuhiko Koike 22, Koichi Iwakabe 22, Shinya Gima7, Kota Usui 6, Gikyo Usuki25, Takuro 
+Tsutsumi25, Keitaro Matsuoka 25, Kazuki Sada25, Masahiro Kitabata 26, Takuma Kikutsuji26, Akitaka Kamauchi 27, Y usuke 
+Iijima28, Tsubasa  Suzuki28, Takenori Goda28, Y uki Takabayashi28, Kazuko Imai28, Y uji Mochizuki29, Hideo Doi 29, Koji 
+Okuwaki30, Hiroya Nitta 30, Taku Ozawa30, Hitoshi Kamijima31, Toshiaki Shintani 31, Takuma Mitamura31, Massimiliano 
+Zamengo4, Y uitsu Sugami10, Seiji Akiyama2, Y oshinari Murakami32, Atsushi Betto 33, Naoya Matsuo 33, Satoru Kagao 33, 
+Tetsuya Kobayashi 34, Norie Matsubara 34, Shosei Kubo 34, Y uki Ishiyama35, Y uri Ichioka35, Mamoru Usami 36, Satoru 
+Y oshizaki37, Seigo Mizutani 37, Y osuke Hanawa38, Shogo Kunieda 38, Mitsuru Y ambe38, Takeru Nakamura38, Hiromori 
+Murashima38, Kenji Takahashi 39, Naoki Wada 39, Masahiro Kawano 40, Y osuke Harada40, Takehiro Fujita41, Erina Fujita1, 
+R yoji Himeno3, Hiori Kino 1,3, Kenji Fukumizu1,3 
+1 The Institute of Statistical Mathematics, Research Organization of Information and Systems, Tachikawa, Tokyo 190-8562, Japan 
+2 Advanced General Intelligence for Science Program (AGIS), TRIP Headquarters, RIKEN, Wako, Saitama 351-0198, Japan 
+3 Graduate Institute for Advanced Studies, SOKENDAI, Tachikawa, Tokyo 190-8562, Japan 
+4 School of Materials and Chemical Technology, Institute of Science Tokyo, Meguro-ku, Tokyo 152-8550, Japan 
+5 Research & Advanced Development Division, The Y okohama Rubber Co., Ltd., Hiratsuka, Kanagawa, 254-8601, Japan 
+6 Science & Innovation Center, Mitsubishi Chemical Corporation, Y okohama 227-8502, Japan 
+7 Business Development Center, R&D Headquarters, Daicel Corporation, Himeji, Hyogo 671-1283, Japan 
+8 School of Life Sciences, Tokyo University of Pharmacy and Life Sciences, Hachioji, 192-0392 Tokyo, Japan 
+9 Imaging & Informatics Laboratories, FUJIFILM Corporation, Ashigarakami-gun, Kanagawa 258-8577, Japan 
+10 R&D Center, Corporate, Sekisui Chemical Co., Ltd., Mishima-gun, Osaka 618-0021, Japan 
+11 Materials Informatics Initiative, JSR Corporation, Kawasaki, Kanagawa 210-0821, Japan 
+12 Institute of Engineering Innovation, The University of Tokyo, Bunkyo-ku, Tokyo 113-0032, Japan 
+13 Department of Mechanical Engineering, The University of Tokyo, Bunkyo, Tokyo 113-8656, Japan 
+14 Center for Advanced Intelligence Project, RIKEN, Wako, Saitama, 351-0198, Japan 
+15 Research Center for Macromolecules and Biomaterials, National Institute for Materials Science, Tsukuba, Ibaraki 305-0047, Japan 
+16 Department of Applied Chemistry and Biotechnology, Chiba University, Inage-ku, Chiba 263-8522, Japan 
+17 Advanced Materials Research Laboratory, TOSOH Corporation, Y okkaichi, Mie 510-8540 Japan 
+18 Research and Service Division of Materials Data and Integrate d System, National Institute for Materials Science, Tsukuba, Ibaraki 
+305-0047, Japan 
+19 Corporate Research Center, TOYOBO Co., Ltd., Otsu, Shiga 520-0292, Japan 
+20 Fundamental Analytical Research Department, Bridgestone Corporation, Kodaira, Tokyo 187-8531, Japan 
+21 Data Science & Informatics Promotion Department, NIPPON SHOKUBAI Co., Ltd., Suita, Osaka 564-0034, Japan 
+22 Research Center, Mitsui Chemicals, Inc., Sodegaura, Chiba 299-0265, Japan 
+23 CrowdChem, Inc., Shinagawa-ku, Tokyo 140 -0013, Japan 
+24 Corporate Engineering Center, Sumitomo Bakelite Co., Ltd., Fujieda, Shizuoka 426-0041, Japan 
+25 Faculty of Science, Hokkaido University, Sapporo, Hokkaido 060-0810 Japan 
+26 Advanced Materials Research Laboratories, Toray Industries, Inc., Otsu, Shiga 520-8558, Japan 
+27 Green Innovation Center, Panasonic Holdings Corporation, Kadoma, Osaka 571-8501, Japan 
+28 Toppan Technical Research Institute, TOPPAN Holdings Inc., Sugito-machi, Saitama 345-8508, Japan 
+29 Faculty of Science, Rikkyo University, Toshima-ku, Tokyo 171-8501, Japan 
+30 Engineering Technology Business Unit, JSOL Corporation, Chiyoda-ku, Tokyo 102-0074, Japan 
+31 Business Division, CLI Business Unit, Research Institute of Systems Planning, Inc., Shibuya-ku, Tokyo 150-0031, Japan 
+
+=== PDF PAGE 2 ===
+2 
+ 
+32 Data Science Center, DIC Corporation, Sakura, Chiba 285-8668, Japan 
+33 Group R&D Division, artience Co.,Ltd., Chiyoda Sakado, Saitama 350-0214, Japan 
+34 Research & Development Division, NIPPON STEEL Chemical & Material Co., Ltd., Kitakyushu -shi, Fukuoka 805-8503, Japan 
+35 Corporate Research & Development, Asahi Kasei Corporation, Chiyoda-ku, Tokyo 100-0006, Japan 
+36 ASMS Co., Ltd., Shinagawa, Tokyo 141-0022, Japan 
+37 Technology and Innovation Center, Daikin Industries, Ltd., Settsu, Osaka 566-8585, Japan 
+38 R&D Strategy Division, SCREEN Holdings. Co. Ltd., Settsu, Fushimi-ku, Kyoto 612-8486, Japan 
+39 Institute of Science and Technology, Kanazawa University, Kakuma-machi, Kanazawa 920-1192, Japan 
+40 Innovation Center, Idemitsu Kosan Co., Ltd, Sodegaura, Chiba 299-0293, Japan 
+41 Advanced Materials Company, Idemitsu Kosan Co., Ltd, Ichihara, Chiba 299-0193, Japan 
+Corresponding authors: yoshidar@ism.ac.jp; yhayashi@ism.ac.jp  
+†These authors contributed equally to this work. 
+ 
+ 
+Developing large-scale foundational datasets is a critical milestone in advancing artificial intelligence ( AI)-dri ven 
+scientific innovation. However, unlike AI -mature fields such as natural language processing, materials science , 
+particularly polymer research, has s ignificantly lagged in developing extensive open datasets. This lag is primarily 
+due to the high costs of polymer synthesis and property measurements, along with the vastness and complexity of 
+the chemical space. This study presents PolyOmics, an omics -scale computational database generated through 
+fully automated molecular dynamic s simulation pipelines that provide diverse physical properties for over 10 5 
+polymeric materials. The PolyOmics database is collaboratively developed by approximately 260 researchers from 
+48 institutions to bridge the gap between academia and industry. Machine  learning models pretrained on 
+PolyOmics can be efficiently fine-tuned for a wide range of real-world downstream tasks, even when only limited 
+experimental data are available. Notably, the generali sation capability of these simulation -to-real transfer models  
+improve significantly as the size of the PolyOmics database increase s, exhibiting power-law scaling. The emergence 
+of scaling laws supports the “mor e is better” principle, highlighting the significance of ultralarge-scale 
+computational materials data for improving real-world prediction performance. This unprecedented omics -scale 
+database reveals vast unexplored regions of  polymer materials, providing a foundation for AI -driven polymer 
+science.  
+ 
+Main 
+Large-scale foundational datasets are essential for artificial intelligence ( AI)-driven scien tific advancements . However, 
+unlike advanced AI fields such as computer vision, natural language processing, biology, and medicine, materials science 
+continues to face a significant  shortage of open, large -scale databases. This gap largely arises from the high cost s 
+associated with data generation, including synthesis, sample preparation , compositional  and structural characterisation , 
+and property measurements, along with  the vastness, hierarchy, and complexity of the material  space. To address these 
+challenges , omics-scale databases generated through  high-throughput first -principles density functional theory (DFT) 
+computations have played a crucial role in advancing AI in materials science . Notable examples include  the pioneering 
+Materials Project 1 for inorganic crystalline materials, followed by AF LOWLIB2, OQMD 3, GNoME4, and  QM9 for small 
+organic molecules 5. These efforts have established a strong  foundation for transformative AI technologies, including 
+foundational generative models for crystal structures 6 and molecules7 , and universal  machine learning potentials 8. 
+Despite these advances, the development of extensive databases for polymer materials has lagged significantly  (Table S1 
+for the existing polymer databases). Experimental databases remain limited in both coverage and scale, and typically 
+contain  only a few property types for several thousand or fewer polymers 9,10. Although several large-scale virtual polymer 
+databases have emerged in recent years 11–13, they lack comprehensive property data  mainly due to  the technical barriers  
+inherent in high -throughput computational experiments. Polymers, with their large -scale non -periodic structures , cannot 
+be handled directly using ordinary periodic -system calculations based on first principles. Furthermore, conducti ng 
+molecular dynamics (MD) simulations to handle large -scale, long -term stochastic dynamics of polymer systems incurs 
+extremely high computational costs. Fully automating tractable multistep modelling processes for diverse structures , such 
+as amorphous, br anched, and mechanically stretched structures , pose  significant technical challenges.  
+To address these issues, we have developed RadonPy, a Python -based pipelin e software for fully automating all -atom 
+classical MD simulations of various polymeric material s14. Given polymer constitutional repeat units  with additional 
+
+=== PDF PAGE 3 ===
+3 
+ 
+simulation conditions, RadonPy automatically executes the entire simulation workflow, including charge calculations, 
+force field parameter  assignment , initial structure generation, and equilibrium and non -equilibrium MD (NEMD) 
+simulations. The latest version (version 1.0), released in this study, implement s automated simulation pipelines for 62 
+distinct polymer properties and structural and dynamic features, including thermal, optica l, dielectric, and mechanical 
+properties, across a wide array of polymer systems such as homopolymers, copolymers, and crosslinked polymers with 
+various higher -order structures.  
+In this study, RadonPy is used to develop PolyOmics, the world’s largest polym er materials database, which encompass es 
+a diverse set of physical properties of more than 10 5 distinct polymeric materials . The database is constructed  using  the 
+Fugaku supercomputer, which has been operated at approximately 100 million node -hours for fou r years. The project is 
+conducted by an industry –academia consortium of more than 260 researchers from 3 national research institutes, 8 
+universities, and 37 companies (of which approximately 100 researchers from 41 organisations  have contributed as co-
+authors of this paper) . PolyOmics provides critical insights into previously unexplored regions of the polymer material 
+space , such as the Pareto front s formed by trade -offs between multiple properties. The database comprises a diverse 
+collection of spe cialised datasets , including 20 distinct classes of general polymers , cellulose derivatives,  biodegradable 
+candidate polymers, uniaxially oriented structures, solubility parameters, and dielectric properties . Notably, PolyOmics  
+is primarily designed for use  in simulation-to-reality (Sim2Real) machine learning 15–17. Models pretrained on PolyOmics  
+are fine-tuned for downstream real -world tasks, where only limited experimental data are available. Remarkably, these 
+Sim2Real transferred models exhibit outsta nding transferability with power -law scaling across diverse real -world 
+property prediction tasks as the PolyOmics data set size increases. This unprecedented omics -scale database opens  access 
+to vast, previously unexplored regions of polymer material research, establishing a new foundation for AI -driven polymer 
+research. 
+Simulations cannot fully capture the complexities and uncertainties inherent in real -world systems. In recent years, several 
+new inorganic crystalline compounds  have been identified using ultralarge-scale brute-force DFT calculations . However, 
+the scientific significance of these findings has been criticised18. One of the key concerns lies in the discrepancy between 
+DFT calculations, which assume  perfectly periodic systems at absolute zer o temperature, and the behaviour of real-world  
+materials. However, this criticism overlooks the intrinsic value of computational data. The PolyOmics database is not 
+intended for the individual retrieval of data in a dictionary -like manner. Instead, its fundamental value emerges when it is 
+used collective ly for AI model training. The scaling laws that emerge when bridging the gap between imperfect 
+simulations and complex real -world systems through Sim2Real transfer learning demonstrate that ultralarge-scale 
+computational materials data possess practical utility, validating the “ more is better” principle. 
+
+=== PDF PAGE 4 ===
+4 
+ 
+Fig. 1. Creation of PolyOmics, an omics -scale polymer materials database using the automated computational experiment software 
+RadonPy. a. RadonPy’s automated MD simulation workflow s. In the latest version , automated calculation algorithms for 62 distinct 
+properties have been implemented (Table S3). b. Collaborative database development through an industry –academia consortium using 
+the supercomputer Fugaku. 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 5 ===
+5 
+ 
+ 
+Fig. 2. Data summary of PolyOmics. a. UMAP projection 19 showing the distribution of polymer species in the general polymers and 
+the cellulose derivatives dataset of the PolyOmics (color-coded according to their polymer classes) , alongside 15,323 currently 
+synthesized polymers from PoLyInfo (in light purple). b. Number of polymers in PolyOmics, the general polymer dataset classified 
+into 20 structural classes (Table S2) , and the ce llulose derivatives . c. Selected data collections made available separately on the 
+PolyOmics website https://huggingface.co/datasets/yhayashi1986/PolyOmics. 
+ 
+  
+
+
+=== PDF PAGE 6 ===
+6 
+ 
+ 
+Fig. 3. Data collections in PolyOmics. a. Joint distribution of volume expansion coefficient versus bulk modulus across 79,041 
+polymers. Fluoropolymers are highlighted in green. b. Joint distribution of refractive index versus Abbe number, where the property 
+values are linearly calibrated with reference to experimental values, following the procedure in a prior work19. The solid line indicates 
+an empirically known Pareto frontier. The star markers represent three polymers that are predicted and discovered using the machine 
+learning polymer design system SPACIER20 in combination with RadonPy. c. Joint distribution of dielectric constant and dielectric 
+dissipation factor at 10 GHz for  1,084 polymers. d. Dependence of thermal conductivity on molecular orientation in 1,379 uniaxially  
+stretched polymers. e. Joint distribution of following seven properties for 3,887 cellulose derivatives (left) and 1,616 PFAS compounds 
+(right), compared with other 35,713 general polymers (light gray): (1) thermal conductivity [ 10−1 W⋅m−1⋅K−1], (2) glass transition 
+temperature [102 K], (3) static dielectric constant, (4) linear expansion coefficient [10-4 K-1], (5) refractive index, (6) radius of gyration 
+[Å], and (7) CP [103 J⋅kg-1⋅K-1].  
+ 
+
+
+=== PDF PAGE 7 ===
+7 
+ 
+ 
+Fig. 4. Scaling law of Sim2Real transfer learning using PolyOmics. a. Scaling law of Sim2Real transfer learning. b. Transfer learning 
+and presence/absence of significant scaling across all combinations of the 61 property datasets from PoLyInfo and the 43 property 
+datasets from PolyOmics. The bar plots arranged in each row and column represent the number of cases where significant scaling was 
+observed. c. Example of observed scaling behaviours. 
+ 
+RadonPy 
+RadonPy is an open -source Python software developed to automate a wide range of comput ational experiments on 
+polymer materials, with a primary focus on all -atom classical MD simulations 14. Once the chemical structure of the 
+polymer chain repeating units with other simulation conditions is specified, RadonPy streamlines the entire simulation 
+workflow, including the conformational search , charge calculations via DFT, force field parameter assignment, simulation 
+cell construction, equilibrium and NEMD simulations, and property calculations (Fig . 1a, Methods , and Sec tion 1 in 
+Supplementary Notes ). The main simulation engines are the open -source software LAMMPS21 for MD simulations and 
+Psi422 for DFT calculations. Currently, automate d simulation pipelines for 62 different properties and polymer structural 
+and dynamic features (Table S3 list s these  properties) have been implemented for homopolymers, random  copolymers, 
+block copolymers, alternating copolymers, and crosslinked polymers with various higher -order structures, including 
+
+
+=== PDF PAGE 8 ===
+8 
+ 
+isotropic amorphous and uniaxially oriented structures, thermal transport properties via NEMD simulations, glass 
+transition temperature s, and dielectric prop erties under applied alternating electric fields (Methods  and Sec tion 1 in 
+Supplementary Notes ). 
+ 
+PolyOmics database 
+Using RadonPy, the PolyOmics database  is constructed, comprising multiple properties of over 105 polymeric materials , 
+with the total number  of data entries currently exceeding 7,301,307. As of the current release, the database contains 62 
+properties: 43 properties derived from RadonPy (Table S3), for which no data are currently available for the remaining 
+19 properties, and machine learning –predicted χ parameters (Sec tion 3 in Suppl ementary Notes) that quantify the 
+miscibility between polymers and 19 widely used organic solvents and plasticisers (Table S4). The chemical space s of 
+these polymers are shown in Fig . 2a, along with those of the 15,323 currently available polymers  from PoL yInfo23,24 . By 
+running independent jobs for different polymers in parallel across numerous nodes on Fugaku, the unprecedented -scal e 
+database has been developed over approximately four years , consuming approximately 100 million node -hours (Fig. 1b). 
+Within the consortium, multiple working groups have independently  defined objectives and collaboratively generated  a 
+wide range of datasets. The resulting data comprise various  subsets  (Fig. 2c), including a property dataset for over 105 
+isotropic amorphous polymers ; ~73,000 general polymers classified into 20 classes;  ~50,000 cellulose derivatives;  
+~13,000 candidates for optical polymers;  3,821 per and polyfluoroalkyl substances  (PFAS); 383 polyesters and 
+polycarbonates  targeting  biodegradable polymer development ; 519 ladder polymers ; dynamic dielectric properties for 
+1,084 polymers; thermal transport properties under uniaxial stretching for 1,379 polymers; 𝜒 parameters for ~93,000 
+polymers mixed with the 19 organic solvents ; solubility parameters for ~59,000 polymers, among others . Each polymer 
+in the general polymer dataset typically belong s to one of the 20 classes  defined by PolyOmics (Table S2). Examples  
+selected from these datasets are further discussed . 
+The isotropic amorphous polymer dataset is the largest subset in the current PolyOmics collection and includes 43 
+properties for 125,658 isotropic amorphous polymers, all obtained under nearly identical calculation conditions ( Methods). 
+Most of the polymers are generate d using custom molecule generators based on SMILES linguistic learning 25 and 
+SMiPoly, a rule -based polymeri sation reaction algorithm 13 (Methods and Section 2 in Suppl ementary Notes). For the 
+simulation conditions, the degree of polymerisation is adjust ed such that each polymer chain contain s approximately 
+1,000 atoms, and an initial isotropic amorphous structure is generated by replicating ten polymer chains arranged based 
+on a self-avoiding random -walk algorithm. In the MD simulations, potential energy is evaluated using the general Amber 
+force field version 2 (GAFF2) 26. To ensure the reliability of the simulation settings, comparisons are made with 
+experimentally measured values reported in PoL yInfo and other sources (Fig . S2). 
+This dataset provides a comprehensive overview o f the expansive design space of amorphous polymers. To date, no 
+previous studies have elucidated the joint distribution of such a large number of properties and polymer species at thi s 
+scale (Fig . S1 shows the joint distribution of 19 selected properties for approximately 70,000 isotropic amorphous 
+polymers from the general polymer and cellulose derivative dataset s, while Fig. S7 shows  the marginal distribution of 
+each of the 43 properties across the 20 polymer classes  of the general polymer and cellulose derivative dataset s). By 
+leveraging this material map, Pareto front s shaped by trade -offs are identified among multiple properties, along with 
+previously unrecogni sed classes of polymers that constitute or even surpass empirically known Pareto boundaries .  
+For example, we analysed the trade-off between increasing heat resistance and flexibility. The coefficient of linear thermal 
+expansion serves as an indicator of heat resistance, while the elastic modulus represent s flexibility. Owing to this inherent 
+trade-off, Pareto front s emerged in the lower region s of the corresponding scatter plot s (Fig. 3a). Moreover, various 
+polymers located near the boundaries of the joint property space were systematically identified. In the development of 
+optical polymers, the primary objective is to enhance both the refractive index and the Abbe number. The Abbe number 
+is a dimensionless parameter that quantifies the chromatic dispersion, specifically representing the ability of light to refract 
+across different wavelengths. The simultaneous increase in both properties present ed a trade -off, which result ed in an 
+empirically known upper boundary of achievable performance 27 (Fig. 3b). PolyOmics provide d a substantial number of 
+polymers that exceed ed this upper boundar y. Many of these polymers contain ed multiple sulfonyl groups ( -SO₂-) or other 
+sulfur-containing substructures. Previous studies have reported that the incorporation of sulfonyl groups into molecules 
+is an effective strategy for designing high -performance optical polymers that can reach the empirical boundar y28,29. In a 
+previous research 20, SPACIER, a polymer design platform that integrat es RadonPy's automated computer experiments  
+
+=== PDF PAGE 9 ===
+9 
+ 
+with Bayesian optimisation, was used to successfully synthesi se three novel polymers that surpassed the currently known 
+performance limits (star markers in Fig . 3b). Furthermore, PolyOmics provide d more polymers than  the benchmarks.  
+ 
+Data collections  
+PolyOmics contains diverse datasets (Fig . 2c). The solubility parameter dataset provides key quantities related to 
+polymer–polymer or polymer –solvent miscibility and phase separation , such as the electrostatic interaction energy and 
+dispersion interaction energy , across 58,834 polymers (Methods). Machine learning –predicted χ parameters, which 
+quantify the miscibility of each polymer with 15 commonly used  organic solvents  (such as  acetone, toluene, N,N-
+dimethylformamide) and four plasticisers (such as  di(2-ethylhexyl)phthalate) , are included in the database 30 (Table S4). 
+These parameters are essential for a wide range of fundamental research tasks , such as assessing solubility in organic 
+solvents crucial for polymer synthesis, predicting phase separation in polymer blends and composites, gas permeability, 
+dispersibility, and crystallinity. 
+RadonPy implements an automated simulation workflow to evaluate the dielectric properties of polymers under an applied 
+alternating current (AC) electric  field (Methods and Sec tion 1 in Supplementary Notes). The time-dependent AC electric 
+field is mode lled as 𝐸(𝑡) = 𝐸0 sin(𝜔𝑡) , where 𝐸0  represents the amplitude of the electric field, 𝜔 is the angular 
+frequency, and 𝑡  is time. While applying an electric field with an arbitrary frequency in a specific direction to an 
+equilibrated isotropic amorphous structure, the dielectric constant  and dielectric dispersion factors are calculated by 
+analysing the electric displacement s obtained from MD simulations with a time  step of 1 fs, along with the dielectric loss . 
+PolyOmics records  the dielectric properties  of several thousand polymers. The joint distribution s of the dielectric constant 
+and dielectric dispersion factors at 10 GH z for 1,084 isotropic amorphous polymers selected from the 20 polymer classes 
+are shown in Fig . 3c. Polymers exhibiting both low dielectric constants and dissipation factors typically feature rigid 
+aromatic rings containing fluorine atoms or low concentrations of polar functional groups, as observed for 
+polyhydrocarbons. These findings provide valuable insights for the rational design of polymers with favourable dielectric 
+properties.  
+Polymer stretching significantly affects thermal conductivity. When molecular chains align, phonons (acoustic vibrations) 
+and intramolecular vibrations propagate more efficiently along the stretching direction, leading to an increase in the 
+thermal conductivity along that direction. For example, highly stretched polyethylene fibres exhibit extremely low thermal 
+conductivity in the perpendicular direction (~0.1 –0.5 W⋅m−1⋅K−1) while achieving exceptionally high thermal conductivity 
+(>100 W⋅m−1⋅K−1) along the direction of stretch 31,32. PolyOmics contain s thermal conductivity profiles for 1,379 uniaxially 
+stretched polymers. Isotropic amorphous structures are generated using equilibrium simulations. A uniaxial orientation is 
+induced by iteratively stretching and compressing the simulation box in a single direction at a stretching speed of 25 m/s 
+and target strains of 0.5 and 1.0. Following the stretching process, the resulting structures are equilibrated for an additional 
+500 ps (Methods and Section 1 in Suppl ementary Notes). This dataset enables the analysis of variations in thermal 
+conductivity with the degree of polymer chain alignment, quantified by the orientation order parameter  (Fig. 3d).  
+PolyOmics contains a property dataset for 51 9 distinct types of ladder polymers (Methods). Ladder polymers are a class 
+of macromolecules characterised by a molecular structure resembling a ladder. Their fundamental framework comprises 
+adjacent backbone units connected via dual linkages —either double or covalent bonds —forming a rigid integrated 
+molecular framework (Fig . S3). Owing to these dual -bond or covalent linkage structures, ladder po lymers exhibit 
+enhanced resistance to thermal degradation and chemical reactions, along with  outstanding optical, electronic, thermal, 
+and mechanical properties. However, synthesi s is difficult. Consequently , experimental data are extremely limited. 
+PolyOmics provides  ladder polymers along with a property dataset of their corresponding  non-ladder polymers, in which 
+one of the double  linkages has been removed, serving as a control set.  
+Furthermore, t he database contain s a candidate set of biodegradable polymers. Fransen et al.33 conducted high -throughput 
+biodegradability screening of 642 distinct polyesters and polycarbonates using their proprietary experimental platform 33. 
+Exploring the relationship between the MD-calculated properties and biodegrada bility of these polymers, many of which 
+are included in PolyOmics, offers important and intriguing application s (Fig. S4). Additionally, the database includes 
+cellulose derivatives, a group of compounds obtained by chemically modifying natural cellulose. These derivatives have 
+a linear structure comprising glucose units connected via β -1,4 linkages, with each unit containing three hydroxy l groups 
+(–OH). By introducing ether or ester groups to these hydroxyls, various properties such as biodegradability, solubility, 
+
+=== PDF PAGE 10 ===
+10 
+ 
+viscosity, thermal and mechanical characteristics, and chemical stability can be tailored for specific applications. In thi s 
+study, ~50,000 cellulose derivatives were generated by substituting the hydroxyl sites with five different degree s of 
+substitution  using ~10,000 types of substituents extracted from a commercially available reagent database 34 (Methods and 
+Fig. S5), and th eir isotropic amorphous properties were computed (Fig . 3e). 
+Addition ally, PolyOmics offer s a diverse collection of data. For example, the database contains  a property dataset of 
+23,361 small molecules. By comparing the properties of the polymers with those of their repeating units , the effects of 
+the polymerisation degree and molecular weight on the polymeric properties can be investigated (Fig. S6). Furthermore, 
+PolyOmics include s a dedicated dataset of 3,821 PFAS resins (Fig . 3e). Notably, the physical properties of numerous 
+PFAS are distributed near the tails of the joint property distributions, indicating their distinctive characteristics within the 
+broader polymer space. This dataset offers significant potential to guide the identification of promising seed compounds 
+for the develo pment of alternative materials for PFASs.  
+ 
+Scaling law of Sim2Real transfer learning  
+The PolyOmics database was developed primarily as a data resource for Sim2Real transfer learning. Models pre -trained 
+on PolyOmic were fine-tuned with limited experimental data to achieve superior generalisation in real-world tasks  beyond 
+the capabilities of models trained from scratch . Here, the scaling law underlying Sim2Real transfer learning  is discussed , 
+which is the core design principle of the PolyOmics database.  Mikami et al.35 theoretically elucidated the scaling law and 
+empirically confirmed it using computer vision  tasks . Accordingly Click or tap here to enter text. , our previous  study 
+demonstrated  that the scaling law holds consistently  across a wide range of Sim2Real transfer  scenarios in materials  
+science 17. These prior studies showed that  the generalisation error 𝐸 of a Sim2Real transferred model with respect to 
+experimental properties decreases monotonically with  the size 𝑛 of the computational database, following a power -law 
+relationship  (Fig. 4a). 
+𝐸 =  𝐷𝑛−𝛼  + 𝐶 (1) 
+A desirable database should  ex hibit a large decay ex ponent 𝛼 with respect to  increasing  𝑛, and a small transfer gap C. 
+The t erm 𝐶 represents the asymptotic limit of achievable performance as the computational  data expan d, serving as a 
+key indicator of the expected value of the computational property database.  
+We performed Sim2Real transfer learning using  PolyOmics and PoL yInfo, a comprehensive experimental property 
+database compiled from literature. A conventional fully connected  neural network was employed to predict each property 
+based  on the compositional and structural features of polymer repeating units  (Methods) . From PoL yInfo, we extracted 
+datasets for 61 distinct experimental properties of amorphous polymers , in which only the data corresponding to 
+temperatures at room temperature ( 0–50 °C) were considered for temperature -dependent properties  (Table S5 list s the 
+properties and data set sizes). For PolyOmics, 43 isotropic amorphous property datasets were used separately  to generate 
+pretrained source models . Sim2Real transfer was conducted across  all combinations of 43 source and 61 target tasks, and 
+the presence or absence of a scaling law was evaluated . When the area under the estimated scaling curve was sufficiently 
+smaller than the baseline for scratch learning, the observed scaling behaviour was considered significant  (Methods ). 
+Consequently, notable scaling was identified in 635 of the 43×61 transfer scenarios (Fig . 4b). 
+For 13 property prediction tasks , where both experimental and computational data were available, Sim2Real consistentl y 
+outperformed scratch  learning, show ing significantly strong scaling. In particular, for density, refractive index, and glass 
+transition temperature —with experimental dataset sizes of 607, 234, and 4,936, respectively —Sim2Real transfer 
+exhibited pronounced scalability (Fig . 4 c) with the estimated decay rates of 𝛼 ≈  0.011–0.438. These properties 
+exhibited a high consistency  between the RadonPy -derived computational and experimental values  (Fig. S2), indicating 
+that expanding the computational dataset almost directly translate d to an improved performance in real-world prediction 
+tasks . 
+For other Sim2Real transfers between identical properties, the s pecific heat capacity at constant pressure ( 𝐶p) exhibited 
+comparatively strong  scaling (Fig. 4c), although the  𝐶p values obtained from classical MD simulations inherently 
+neglected quantum effects, resulting in a systematic bias from the experimental values  (Fig. S2). The thermal conductivity 
+
+=== PDF PAGE 11 ===
+11 
+ 
+and the coefficient of linear thermal expansion converged in their scaling curves around a dataset size of 𝑛 = 104  (Fig. 
+4c). When such convergence was attained, a strategy can be devised  to halt further data generation and reallocat e surpl us 
+computational resources to other projects. Alternatively, modif ication o f the data -generation protocol to improve 
+scalability could be considered . Notably, the  observed scaling behavio urs reflected generalisation performance only 
+within a finite subset of polymers across a vast chemical space —particularly those with limited experimental data. Even 
+when the generali sation performance improve d outside of the data distribution, measurements are not possible . 
+Furthermore, transferability is depend ent not only on the quantity of computational data but also on the amount and 
+quality of the experimental data. For example, the number of experimental thermal conductivity values was only 39. In 
+addition, the coefficient  of linear thermal expansion exhibit ed substantial measurement variability (Fig . S2). Thus, even 
+when the computational dataset is expanded, it is infeasible to surpass the intrinsic performance limits imposed by the 
+available experimental data.  
+During transfer learning between different physical properties, several cases exhibited significant scaling. Among all task 
+pairs, cases with clear negative transfer s accounted for less than 7%. As illustrated in Fig. 4c, Sim2Real transfer learning 
+exhibited strong  scaling for a wide variety of real-world systems in which direct computation al evaluation  is technically 
+challenging or even infeasible due to the spatiotemporal limitations of MD simulations , such as crystal growth rate, tensile 
+stress  at yield, fracture bending stress, and surface tension . Notably, the radius of gyration Rg, glass transition temperature, 
+nematic order parameter, and solubility para meters showed significant scaling in 20, 29, 21, and 22 of the 61 target tasks, 
+respectively. Rg, calculated as the root -mean-square distance from the cent re of mass to each repeating unit , quantitatively 
+represen ted the spatial extent and folding of a polymer molecule. In particular, Rg exhibited high transferability to 
+mechanical properties such as yield stress and dynamic viscoelasticity.  The yield stress of a polymer  depends on its 
+molecular entanglements and stru ctural characteristics. Rg, which represent ed the expansion of the polymer chains, 
+indirectly affected the yield stress  through its influence on intermolecular interactions and entanglements.  
+ 
+Conclusions and future perspectives  
+The PolyOmics database, which encompasses the computed properties of polymers on a scale of over 105 polymeric 
+materials, is a landmark achievement in data -driven polymer material research. Similar to the DFT-based material  
+databases that have revolutionised AI for crystalline materials, PolyOmics is expected to stimulate a similar 
+transformation in polymer science. This study illuminates a substantial portion of the vast polymer material space; 
+however, many regions remain unexplored. In particular, the pr operties of polymeric materials are significantly influenced 
+by higher-order structural features such as crystallinity, amorphous  regions , liquid crystallinity, and microphase separation 
+in the polymer blends. Automating MD simulations for such complex  heterogeneous systems at the atomic scale remains  
+technically and computationally challenging. Future database development will require m ultiscale and hierarchical 
+approach es that incorporat e automated coarse -grained simulations alongside atomistic models.  
+Unlike prior DFT databases, PolyOmics was specifically developed as a foundational data resource for Sim2Real machine 
+learning. MD simulations of polymer materials are subject to inherent uncertainties and imperfection s stemming from 
+limitations in polymer chains, polymerisation degree, spatiotemporal scales, and the stochasticity of initial configurations. 
+These limitations reduce the utility of dictionary -style analyses of individual polymers, which have historically hindered 
+the development of high -through put computational databases for polymers. To overcome this  problem, we re-
+conceptualised  computational databases as foundational training resources for Sim2Real machine learning, redefin ing 
+their value  in terms of transferability and scalability to real -world tasks.  
+Placing transfer learning scaling laws at the core provides a roadmap for mitigating data scarcity in materials science. In 
+several cutting -edge fields, collecting sufficient experimental da ta for AI model training is infeasible. The solution lies in 
+identifying domains, such as computer simulations , where large -scale data can be systematically generated, and then 
+bridging the domain gap through machine learning. Such a foundational source da tabase should be designed such that 
+with its expansion, the model’s capability to generalise across diverse downstream task scales accordingly. To broaden 
+the transferable domains and enhance transferability, both the quantity and quality of data  should be  enhanced . Thus , we 
+are focused on developing RadonPy and PolyOmics through cross -institutional collaborative effort s. 
+ 
+Methods 
+
+=== PDF PAGE 12 ===
+12 
+ 
+RadonPy 
+The RadonPy project was initiated to fully automate a wide range of computational experiments on polymer materials , 
+with the focus on automating all-atom classical MD simulations. The input parameters include d the chemical structure of 
+one or more polymer repeat units given as SMILES strings, degree of polymerisation, number of polymer chains, 
+temperature, pressure , and so on. The basic workflow included: (1) conformational search for the given repeat units; (2) 
+calculation of electronic properties , including atomic charges, using DFT; (3) generation of initial polymer configurations; 
+(4) assignment of force field parameters ; (5) equilibrium MD simulation; (6) NEMD simulation; and (7) property 
+calculation from molecular trajectories. RadonPy integrate d the open -source software Psi4 and LAMMPS for the DFT 
+and MD calculations, respectively, with all steps orchestrated via a Pyt hon interface. Optimisation for high -throughput 
+computation across numerous nodes on supercomputers was achieved, including built-in mechanisms to automatically 
+detect equilibration, handle failures in non -equilibrium simulations, and manage rescheduling a nd restarts , which are 
+essential for accommodating the wall-time limits set by supercomputer usage policies.  The details of the RadonPy 
+software are provided in Section 1 of Suppl ementary Notes. 
+In the latest version ( version 1.0), automated calculation algorithms for 62 distinct properties  were implemented for  
+homopolymers, alternating/random/block copolymers, crosslinked polymers, and polymer blends. Higher -order 
+structures  that can be handled included isotropic amorphous structures with uniaxial stretc hing orientations and crystalline 
+polymers. Software development was conducted on a consortium basis, with ongoing efforts to expand the range of target 
+properties and polymer systems. For each simulation workflow, standardised protocols, including simulation box settings 
+such as the degree of polymeri sation and number of polymer chains, were defined by computational chemistry experts. 
+The primary criterion prioriti sed in the parameter settings was consistent with the experimental properties. For example, 
+in isotropic amorphous polymers, computational properties such as the density, refractive index, linear expansion 
+coefficient, volume expansion coefficient, thermal conductivity, glass transition temperature, and s olubility parameters  
+have demonstrated quantitative predictive accuracy relative to experimental values (Fig. S2). For properties with 
+unavailable comprehensive experimental datasets, simulation conditions were established based on expert knowledge and 
+insights from computational chemistry.  
+Notably, computational data do not necessarily match the experimental values quantitatively. In particular, to prioritise 
+throughput in data production, the calculation conditions were set more loosely compared with con ventional polymer 
+material MD simulations. V alidity is entrusted to the performance of machine learning transferred to real -world systems, 
+specifically in terms of transferability and scalability.  For instance, classical MD simulations for deriving specifi c heat 
+capacity do not account for quantum effects, resulting in an upward bias in the MD -derived values compared with 
+experimental observations (Fig. S2c). Similarly, property calculations for the linear expansion coefficient exhibit ed high 
+variability owing to their significant dependence on the initial structure randomness, leading to weak correlations with 
+the experimental data (Fig. S2g). Nevertheless, the transferred models demonstrated strong generalisation performance 
+with respect to these experimental properties (Fig. 4). Sim2Real machine learning bridge d the gap between PolyOmics ' 
+vast yet imperfect comp utational datasets and the complex and uncertain realities of experimental systems.  
+Virtual polymer generation  
+In PolyOmics, virtually generated polymers were automatically classified into 20 polymer classes, including polyesters, 
+polyimides, polyamides,  and polyacrylates  (Fig. 2b and Table S2) and assigned unique identifiers before registration in 
+the database. Most of these polymers were generated using in -house polymer generators based on SMILES probabilistic 
+language models 25 and the rule-based polymerisation reaction algorithm SMiPoly13. These polymers were recorded as a 
+general polymer dataset in Poly Omics. 
+For each polymer class, the probabilistic language model was trained on the SMILES strings of previously synthesi sed 
+polymers. Specifically, a generator was constructed by feeding synthetic polymers from each class in  the PoL yInfo 
+database, resulting in the creation of a virtual polymer library. The repeat ing unit of each existing polymer was encoded 
+as a SMILES string, and using a language mod el, a structure generator was constructed to mimic the frequently occurring 
+patterns found in existing molecules, such as molecular fragments and bonding patterns. The training and generation 
+processes were performed using XenonPy, the in-house materials i nformatics platform 36. The number of polymers  
+generated  for each class is summarised in Table S2. 
+SMiPoly implements 22 polymerisation reaction rules, which are categorised into four major reaction types: addition 
+chain polymerisation, ring-opening chain  polymerisation, polycondensation, and polyaddition. Each rule is defined by a 
+
+=== PDF PAGE 13 ===
+13 
+ 
+combination of reaction centres and transformation rules encoded by Reaction SMAR TS 37. When a starting molecule is 
+provided, SMiPoly check s for the presence of these reaction centres and performs in silico  polymerisation according to 
+applicable transformation rules. Using ~1,000 starting readily available molecules, SMiPoly generated ~160,000 unique 
+polymers, which were classified into 20 polymer classes defined by the PolyOmic s taxonomy (Table S2). Ohno et al. 13 
+reported that the resulting polymers spanned approximately 50% of the structural space occupied by previousl y 
+synthesised polymers, whereas approximately 50% of the generated polymers were within previously unexplored  
+regions Click or tap here to enter text. . Currently, MD calculations for a subset of these virtual polymers have been 
+completed. 
+ 
+Equilibration simulation of isotropic amorphous polymers 
+Hayashi et al. 14 developed an automated workflow for calculating the physical properties of isotropic amorphous 
+polymersClick or tap here to enter text. . A large portion of PolyOmics data was generated under the  same condition. The 
+calculation process is summarised as follows (Section 1 in Suppl ementary Notes ). 
+Conformation search of repeating units : For a given polymer repeat unit with the SMILES string, where the asterisk 
+symbols representing the connecting points of the repeating unit were capped with hydrogen atoms, 1,000 different initial 
+conformations were generated using the ETKDG version 2 method implemented in the Python library RDKit 38. The 
+generated structures were  further relaxed by performing geometrical optimisation using DFT calculations with Psi4. The 
+most stable conformation was selected from 1, 000 different conformations based on total  DFT energies.  
+Electronic property calculation of repeating units : The atomic charges of the stable conformation were calculated using 
+the restrained electrostatic potential (RESP) charge model 39 based on a Hart ree–Fock single -point calculation 40. 
+Additional properties, including total energy, the highest occupied molecular orbital (HOMO) and the lowest unoccupied 
+molecular orbital (LUMO) energy levels, dipole moment, and dipole polarizability tensor, were computed using the 
+ωB97M-D3BJ functional combined with the appropriate basis sets 41,42. 
+Generation of polymer chains : Polymer chains were constructed by connecting repeating units usin g a self -avoiding 
+random-walk algorithm. Each chain was created to include ~1,000 atoms. During chain growth, the bond between the 
+head and capped atoms of the growing chain, along with  the bond between the tail and capped atoms of the next repeat 
+unit, was arranged coaxially and antiparallel to prevent unwanted chiral inversions or cis/trans conversions. The generated 
+polymers were atactic (non -ordered). 
+Force field parameter assignment : The GAFF2 force -field parameters were automatically assigned to each polymer 
+chain in RadonPy. When any parameters were missing for certain atom ic groups, these values were empirically estimated 
+in the same manner as for GAFF2.  
+Generation of simulation cells: A simulation cell containing ~10,000 atoms was created by randomly arranging and 
+rotating ten polymer chains such that they did not overlap. The initial cell density was set to 0.05 g ∙ cm−3 and was 
+subsequently increased through a packing simulation.  
+Packing simulation : The packing simulation was performed using NVT simulations, where the temperature was increased 
+from 300 to 700 K, and the density was increased to 0.8 g ∙ cm−3. During this process, the Coulomb interaction was 
+disabled to prevent the polymer chains from aggregating into globule -like structures, ensuring that the chains remained 
+in random coil form and did not pass through one another.  
+Equilibration simulation : The system underwent Larsen’s 21 -step equilibration protocol to achieve equilibrium43. This 
+process involved temperature cycling from 300 to 700 K over ~1.5 ns, pressure cycling from 50,000 to 1 atm, and repeated 
+compression and decompression by combining the  NVT and NPT simulations with a Nos é–Hoover thermostat and 
+barostat. After completing the 21-step  equilibration, NPT simulations were performed for over 5 ns at 300 K and 1 atm 
+until equilibrium was achieved.  Equilibrium was determined when fluctuations in energy, density, and other parameter s 
+fell below the specified thresholds, ensuring system stability throughout the 50 ns equilibration period.  
+Property calculation : In the latest version, the 62 distinct properties can be automatically calculated from the equilibrium 
+MD simulations (Table S3): density, radius of gyration, scaled radius of gyration, end -to-end distance, specific heat 
+capacities at constant pressure /volume, isothermal/isentropic compressibility, isothermal/isentropic bulk modulus, 
+
+=== PDF PAGE 14 ===
+14 
+ 
+volume expansion coefficient, linear expansio n coefficient, self -diffusion coefficient, refractive index, static dielectric 
+constant, corrected static dielectric constant, and nematic order parameter.  
+Calculation of thermal conductivity 
+To calculate thermal conductivity, we performed reverse NEMD sim ulations, specifically employing the M üller–Plathe 
+method, which imposes a temperature gradient and measure s the resulting heat flux44. The simulation box was created by 
+triplicating an equilibrated isotropic amorphous cell along the x-axis under periodic boundary condition s. The box was 
+divided into slabs , and a temperature gradient was induced by exchanging velocities between the coldest atom in the 
+middle slab and the hottest atom in the first slab. This created a temperature gradient, with the hottest slab in the centre 
+and the temperature decreasing towards the ends. A preheating step at 300 K for 2 ps using the NVT ensemble was 
+performed before running the reverse NEMD simulation for 1 ns using the NVE ensemble. The number of slabs was set 
+to 20, with velocity swapping occurring every 200 fs. The time step was 0.2 fs. Non-bonded interactions were calculated 
+using the twin -range cutoff method with cutoffs of 8 and 12  Å, and long -range Coulomb interactions were controlled 
+using the PPPM method. T he adequacy of the reverse NEMD calculation s was validated by confirming a linear 
+temperature gradient, with poor results removed from the data  (Section 1 of Suppl ementary Notes ). 
+In RadonPy, thermal conductivity was decomposed into six components  over a 100-ps NEMD simulation, based on their 
+contribution to energy flux through convection and interatomic interactions. These components include d convection, bond, 
+angle, dihedral, improper, and nonbonded. The non -bonded contributions were further divided into pairwise and K-space 
+components, referred to as TC_ke, TC_pe, TC_pair, TC_bond, TC_angle, TC_dihed, TC_improper, and TC_kspace , 
+respectively, in the PolyOmics database  (Table S3)45–47. 
+Calculation of glass transition temperature  
+The system was initially equilibrated in the NVT ensemble at high temperature, followed by a controlled cooling process 
+at a constant rate from the liquid state to the glassy state. Cooling was performed at a rate of 800 K/ns using a Nos é–
+Hoover thermostat  with a timestep of 1 fs. The initial temperature was determined to be the temperature at which the 
+density was ~0.5 g ∙ cm−3, and the system was subsequently cooled to 50 K.  The simulations were conducted for several  
+nanoseconds to allow proper equilibratio n and transition. Glass transition was identified by a notable change in the slope 
+of the observed density values or a sharp drop in diffusion, signalling the onset of vitrification. 
+Calculation of dynamic dielectric properties 
+The dynamic dielectric constants ( 𝜀′) and dielectric loss tangent  (tan𝛿) of isotropic amorphous polymers were evaluated  
+over a frequency range of 10 –500 GHz by simulating time -dependent dielectric polarisations under an AC electric field.  
+The dielectric properties  were calculated by performing MD simulations under the NPT ensemble at 1 atm. The external 
+AC electric field 𝐸(𝑡) = 𝐸0 sin(𝜔𝑡) with an arbitrary frequency  was applied in  the x, y, and z directions to induce 
+polarisation, defined as 𝑃 = 𝜇 𝑉⁄ , where 𝑉 is the volume of a simulation cell and 𝜇 is the total dipole moment. The 
+corresponding force , depending on the charge of an atom, q, 𝐹 = 𝑞𝐸(𝑡)  was applied via the LAMMPS efield 
+command, with the field amplitude kept low to avoid non -linear effects. The field frequency was set to 10–500 GHz. The 
+electric displacement was calculated as 
+𝐷(𝑡) = 𝜀0𝐸(𝑡) + 𝑃(𝑡)  (2) 
+with the phase difference 𝛿 between 𝐷(𝑡) and 𝐸(𝑡) determined via fitting. Here, 𝜀0 denotes  the dielectric constant 
+of free space.  The dynamic dielectric constant  𝜀′ and dielectric loss tangent  tan 𝛿 were derived as: 
+𝜀′ = 1 +
+𝑃𝑜
+𝜀0𝐸0
+cos 𝛿 +
+𝑃𝑒
+𝜀0𝐸 (3) 
+
+=== PDF PAGE 15 ===
+15 
+ 
+tan 𝛿 =
+𝑃𝑜
+𝜀0𝐸0
+sin 𝛿 ×
+1
+𝜀′ (4) 
+where 𝑃𝑒  represents  the electronic polarisation obtained from DFT calculations and 𝑃𝑜  denotes the orientational dipolar 
+polarisation. The calculated values  were averaged over five independent initial configurations  (Section 1 of 
+Supplementary Notes ). 
+The calculated 𝜀′ and tan𝛿 values exhibited good agreement with the experimental values of 13 polyimides at 0% 
+relative humidity (RH) (Fig. S2). The experimental values, originally measured at multiple RH levels by Sawada et al. 48, 
+were extrapolated to 0% RH for comparison.  
+Calculation of thermal conductivity under uniaxial stretching  
+The thermal conductivit ies of polymers can be significantly enhanced by uniaxial stretching  (Section 1 in Supplementary 
+Notes). After generating the isotropic amorphous structures through equilibrium simulations, an iterative stretching and 
+relaxation process was performed by extending the simulation box in one direction. Stretching was performed under NPT 
+conditions at 300 K with a stretching speed of 25 m/s an d strain of 0.5 and 1.0. Following deformation, the structures 
+were equilibrated for 500 ps. The thermal conductivity along the stretching direction was evaluated using NEMD 
+simulations implemented in RadonPy. Furthermore, the degree of chain alignment in the stretched structures was 
+quantified by calculating the order parameter based on the moment s of inertia of the individual repeating units . 
+Calculation of solubility parameters  
+The Hansen solubility parameter is commonly expressed as three types of cohesive energy densities, corresponding to the 
+intermolecular interaction energies derived from the dispersion term 𝛿d, the polar interaction term 𝛿p, and the hydrogen 
+bonding  term 𝛿h. However, when calculating the solubility parameter using the GAFF2 force field,  the non -bonded 
+interactions comprise van der Waals and electrostatic interactions. Thus, the solubility parameter comprises three 
+components: the interaction originating f rom van der Waals interactions 𝛿vdw , the interaction from electrostatic 
+interactions 𝛿e , and their total sum 𝛿total . In this study, we consider ed that 𝛿vdw  correspond s to 𝛿d  and 𝛿e 
+correspond s to 𝛿e = √𝛿p2 + 𝛿h
+2 , and we evaluated the consistency between the MD -calculated values and experimental 
+values (Fig. S2). The solubility parameter s in the PolyOmics database followed this definition. 
+Generally, to calculate the solubility parameter, comput ing the cohesive energy and molar volume for a single molecule 
+in the gas phase (with no intermolecular interactions) and for the bulk system  is necessary . Therefore, t o compute the 
+energy of the former, we extracted a single molecule from an equilibrated multiparticle bulk system in an MD simulation. 
+The cohesive energy density was calculated from the interaction energy within the molecule and molar volume, and the 
+difference from the bulk system energy was used to c alculate the solubility parameter  (Section 1 in the Supplementary 
+Notes ). 
+Data collections 
+In this study, the following datasets from PolyOmics were analysed  and illustrated as examples. 
+Small molecules : The database contains the MD-derived physical property data of 23,361 small molecules. By comparing 
+the properties of the polymers with those of their isolated repeating units, it is possible to systematically analyse how the 
+degree of polymerisation and molecular weight influe nce polymeric properties (Fig. S6 ).  
+PFAS resins: Th e database includes a dataset comprising 3,821 PFAS resins. Notably, the physical properties of these 
+PFAS are located near the tails of the joint property distributions, indicating their distinctive char acteristics within a 
+broader polymer space (Fig. 3e). The PolyOmics PFAS dataset  is expected to facilitate identification of seed compounds 
+in the search for alternatives to PFAS. 
+Cellulose derivatives : Cellulose derivatives are a group of po lymers obtained by chemically modifying natural cellulose. 
+Cellulose, the primary component of plant cell walls, is a polysaccharide comprising numerous linked glucose units . Its 
+structure consists of glucose molecules connected in a linear chain via 𝛽-1,4-glycosidic bonds with each glucose unit 
+containing three hydroxyl groups ( –OH). By introducing ether or ester groups to these hydroxyl groups through chemical 
+modification, the properties of cellulose, such as biodegradability, solubility, viscosity, the rmal and mechanical properties, 
+
+=== PDF PAGE 16 ===
+16 
+ 
+and chemical stability , can be tailored to suit specific applications.  In this study,  using a set of ~300,000 substituents 
+extracted from the commercially available reagent database ZINC 34, ~50,000 cellulose derivatives were randomly 
+generated with degrees of substitution ranging from 0 to 3  (Fig. S5) . The isotropic amorphous properties of these 
+derivatives were calculated using RadonPy, which covered  43 different physical properties  (Fig. 3). 
+Biodegradable polymer candidates : The database includes a collection of candidate materials for biodegradable polymer 
+alternatives to cellulose derivatives. Fransen et al. 33 conducted bio degradability assessments of 642 distinct types of 
+polyesters and polycarbonates using their proprietary high -throughput experimental platform. Exploring the relationship 
+between the material properties of these polymers, as archived in PolyOmics, and thei r biodegradability metrics is an 
+important and interesting application of the database.  
+Uniaxially stretched oriented polymers : Currently, PolyOmics contains thermal conductivity profiles for 1,379 uniaxially 
+stretched polymers. The relationship between the nematic order parameter and thermal conductivity for 1,379 polymers  
+at strains of 0, 0.5, and 1.0 is shown in Fig. 3d. The  orientation order range d from 0 to 0.6, while thermal conductivi ty 
+values span ned from 0.2 to 2.5 W·m⁻¹·K⁻¹. T he thermal conductivity generally increase d with a higher orientation order.  
+Some polymers exhibit ed relatively high thermal conductivities (1.5 –2.0 W·m⁻¹·K⁻¹) despite having orientation order 
+values below 0.2. The correlation between the average thermal conductivity and the average orientation order parameter 
+at each strain level for each polymer class is shown in Fig. 3d.  
+Notably, polysulfides, polyphenylenes, and polyimines demonstrate high thermal conductivities at a strain of 1.0, whereas 
+polyacrylates, polyphosphazenes, and polystyrenes exhibit ed minimal changes in conductivity upon stretching. These 
+results suggest that polymers with rigid backbones, such as those containing multiple bonds and aromatic rings, exhibit 
+significant enhancement in thermal conductivity through orientation. Conversely, polymers with bulky side chains 
+showed limited improvement in conductivity even when their orientation order increased.  
+Ladder polymers : A structure generator in RadonPy was used  to systematically construct ladder polymer structures. As 
+depicted in Fig. S3, 170 distinct  ring structures (R)  were defined, each possessing four polymerisable sites, and  eight 
+types of alkyl linker groups (L)  containing  two polymerisable sites. By exhaustively combining these components within 
+an R-R-L framework, 1,  360 ladder polymers ( 170 × 8 combinations)  were generated . A total of 519 ladder polymers  
+and their corresponding non -ladder polymers were calculated and included in PolyOmics. Furthermore, as a control, non-
+ladder polymers were constructed by removing one of the two polymeri sable sites from the R-R framework. The isotropic 
+amorphous properties of the polymers were evaluated thoroughly . The results indicate that compared to non -ladder 
+polymers, ladder polymers exhibit a significant and simultaneous reduction in both thermal expansion and volumetric 
+expansion coefficients. Furthermore, the analysis of the isotropic amorphous structures demonstrate d that ladder polymers 
+tend to adopt a zigzag-like higher -order conformation at the junctions of the building blocks (R -R-L) and exhibit a lower 
+density than non-ladder polymers. This reduction in density is attributed to the increased rigidity of the dual linkages, 
+which hinder ed efficient packing. The ladder architecture significantly reduce s molecular mobility, as evidenced by a 
+decrease in the self -diffusion coefficient. Elongation of the alkyl linker chains promotes  densification and increases  the 
+self-diffusion coefficient.  
+Transfer learning workflow and scaling analysis  
+For transfer learning between 43 and 61  datasets from PolyOmics and PoL yInfo , respectively, we employed a 
+conventional multilayer perceptron. The model input was defined as a 190 -dimensional kernel -mean force  field descriptor 
+vector that represent s the compositional and structural features of a polymer repeating unit, as detailed later. The mapping 
+from the vectorised polymer to each property was modelled using a neural network with five hidden layers, where e ach 
+layer applied a rectified linear unit  (ReLU) activation function to a fully connected linear layer. The number s of neurons 
+in the hidden layers were fixed at 512, 256, 128, 64, and 32. The output regression layer was placed on the head to 
+calculate the  scalar value of the MD-calculated or experimental propert ies. During model training, we used the mean 
+squared error as the loss function and optimi sed the model using the Adam optimi ser. The learning rate was set to 0.001 , 
+and the batch size was set to 32 . Pre-training and fine -tuning were performed under the  same conditions. Of the training 
+dataset, 10% and 20% were masked as the validation set in pre -training and fine -tuning, respectively, and training was 
+stopped when there was no improvement in the validation loss for 50 and 20 consecutive steps in pre-training and fine -
+tuning, respectively. For further details, refer to the distributed PyTorch implementation . 
+To determine the presence or absence of transfer learning scaling, we used the area ratio betw een the estimated scaling 
+
+=== PDF PAGE 17 ===
+17 
+ 
+curve and the baseline of the scratch learning. The estimated power -law function was integrated over the range 𝑛 ∈
+ [102, 105 ] to compute the area 𝑆1. As the baseline, we used a constant function corresponding to the mean MAE of 
+models trained solely on experimental data, and calculated the area 𝑆0 over the same range of 𝑛 ∈  [102, 105 ]. Cases 
+in which the area ratio 𝑆1 𝑆0⁄  was less than or equal to 0.95 were judged to exhibit scalable transfer learning.  
+Kernel mean embedding of force field parameters 
+The chemical structure of a given polymer was described using force field parameters defined by the AMBER (GAFF2) 
+potential. The potential of the all -atom classical MD simulation consists of seven distinct terms represent ing van der 
+Waals interaction energy, electrostatic interactions, bond stretching, bond angle bending, dihedral angle rotation, and 
+improper torsion . The atoms constituting the polymer were classified according to their element species, and predefined 
+parameter values  were assigned to each atom or atomic group based on the element species. Table S 6 summarises the 
+GAFF2 parameters. Ten distinct parameters were assigned to their corresponding components, with four distinct 
+parameters applied to individual atoms, three pa rameters to the two-body atom species forming a bond, two parameters  
+to the three-body atom species forming a bond angle, and one parameter to the three -body atom species forming a dihedral 
+angle. 
+As the number of force field parameters varies depending on the polymer species, these parameters must be converted 
+into a fixed -length descriptor vector for input into the neural network. Therefore, we employed a machine learning 
+technique called kernel mean embedding 49 to encode the distribution of force field parameters into a fixed-length vector 50. 
+This procedure involve d smoothing the histogram of the parameter component values using kernel density estimation 
+with a Gaussian radial basis function ker nel. The discretised points were ten points corresponding to ten different element 
+species, such as hydrogen and carbon , for mass, and 20 equally spaced grid points for the other nine parameters. Therefore, 
+each polymer was encoded as a 190-dimensional des criptor. 
+ 
+Data availability 
+All data in the PolyOmics database, including polymer repeat units, MD -calculated properties, machine learning –
+predicted miscibility with organic solvents and plasticizers, MD simulation conditions, and JSON files of relaxed 
+structures obtained from equilibrated simulations, are available at Hugging Face 
+(https://huggingface.co/datasets/yhayashi1986/PolyOmics ). For convenience, a curated C SV file containing the specific 
+datasets highlighted in this paper is provided as a supplementary resource.  
+Upon publication of this paper, all PolyOmics data will be accessible through a dedicated web -based database 
+(https://radonpydb.org/ ). This online platform offers user -friendly functionalities , such as graphical interface –based data 
+search and browsing, as well as programmatic access and data downloading through an application programming interface 
+(API).  
+Owing to licensing restrictions, the experimental datasets from the PoL yInfo database could not be redistributed. Access 
+to the PoL yInfo database  requires contacting the designated office of the National Institute for Materials Science  via the 
+PoL yInfo website (https://polymer.nims.go.jp). 
+ 
+Code availability 
+The latest version of RadonPy (version 1.0) is available at https://github.com/RadonPy/RadonPy . Source code for transfer 
+learning and a pretrained machine learning model for predicting polymer –solvent miscibility are also provided.  
+ 
+Acknowledgements 
+We express our sincere gratitude to all members of the RadonPy consortium for their valuable contributions to the 
+advancement of their respective projects and the overall operation of the consortium. This research was primarily 
+supported by the Ministry of  Education, Culture, Sports, Science and Technology (MEXT) through the “Program for 
+Promoting Researches on the Supercomputer Fugaku” (JPMXP1020200314). Additional support was provided by the 
+Japan Science and Technology Agency (JST) (JPMJCR19I3, JPMJCR22O 3, JPMJCR2332, JPMJCR2546, and 
+
+=== PDF PAGE 18 ===
+18 
+ 
+JPMJPF2102) and the Japan Society for the Promotion of Science (JSPS) (25H01126, 19H01132,  22K11949, and 
+25K00147). Computational resources were provided by Fugaku at the RIKEN Center for Computational Science, Kobe, 
+Japan (h p210264, hp220179, hp230190, hp240216, and hp250235) and a supercomputer at the Research Center for 
+Computational Science, Okazaki, Japan (21 -IMS-C126, 22 -IMS-C125, 23 -IMS-C113, 24-IMS-C107, and 25 -IMS-C107).  
+ 
+Contributions 
+R.Y . conceived and led the proje ct, formulated the design principles of the PolyOmics database, and developed a core 
+conceptual framework for Sim2Real transfer learning. He also established the RadonPy consortium and oversaw the 
+project’s overall direction.  
+Y .H. developed and implemented both the RadonPy software and the PolyOmics database, as well as the experimental 
+validation of scaling laws. Most of the functionalities in RadonPy were designed and implemented by Y .H. . 
+H.F. and R.H. developed an automated property calculation system and generated data for dielectric properties and thermal 
+conductivity under uniaxial stretching. H.S. implemented an automated system for calculating glass transition 
+temperatures. K.K. devel oped an automated system for calculating solubility parameters. S.N. implemented the automated 
+system and generated the refractive index and Abbe number data. T.K. contributed to the automated generation and data 
+production of the ladder polymers. K.S. generated a dataset of cellulose derivatives. Y .K. generated the dataset for small 
+molecules. S.W. and K.S. developed a machine learning model to predict χ parameters and applied it to estimate the 
+miscibility between virtual polymers and organic solvents in PolyOmics. R.S. contributed to the implementation of the 
+automated property calculation system for the rheological properties. Y .N. generated virtual polymers using a chemical 
+language model. M.O. developed the SMiPoly software and generated the virtual po lymers. Additionally, many other 
+consortium members voluntarily defined the research tasks and contributed to data generation. M.I. and I.K. provided the 
+experimental data from the PoL yInfo database . C.L., Y .H., and A.T. developed a web -based version of th e PolyOmics  
+database that includ es a set of APIs.  
+As the consortium’s administrative manager, A.T. coordinated the overall project operations and support, including the 
+collection and organization of data produced within the consortium. J.S.,  T.N., N.T., K.S., M.O., H.S., H.F., H.I., Y .M., 
+H.I., M.Z., Y .H., and A.T. served as members of the steering committee under the leadership of R.Y . and contributed to 
+project management and coordination.  
+R.Y . drafted the initial manuscript and Y .H. and H.F. revised the technical sections. T. H. and M.O. contributed to figure 
+preparation and final proofreading of the manuscript.  
+ 
+References 
+1. Jain, A. et al. Commentary: The materials project : A materials genome approach to accelerating materials inno vation. 
+APL Mater.  1, 011002 (2013). 
+2. Curtarolo, S. et al. AFLOW: An automatic framework for high -throughput materials discovery. Comput. Mater. Sci.  
+58, 218–226 (2012). 
+3. Kirklin, S. et al. The open quantum materials database (OQMD): Assessing the accuracy of DFT formation energies. 
+NPJ Comput. Mater.  1, 15010 (2015). 
+4. Merchant, A. et al. Scaling deep learning for materials discovery. Nature  624, 80–85 (2023). 
+5. Ramakrishnan, R., Dral, P. O., Rupp, M. & Lilienfeld, O. A. von . Quantum chemistry structures and properties of 
+134 kilo molecules. Sci. Data  1, 140022 (2014). 
+6. Zeni, C. et al. A generative model for inorganic materials design. Nature  639, 624–632 (2025). 
+
+=== PDF PAGE 19 ===
+19 
+ 
+7. Ross, J. et al. Large-scale chemical language representations capture molecular structure and properties. Nat. Mach. 
+Intell. 4, 1256–1264 (2022). 
+8. Yang, H. et al. MatterSim: A deep learning atomistic model across elements, temperatures and pressures. arXiv 
+(2024) doi:10.48550/arxiv.2405.04967. 
+9. Tran, H. et al. Design of functional and sustainable polymers assisted by artificial intelligence. Nat. Rev. Mater.  9, 
+866–886 (2024). 
+10. Audus, D. J. & Pablo, J. J. de. Polymer informatics: Opportunities and challenges. ACS Macro Lett. 6, 1078–1082 
+(2017). 
+11. Ma, R. & Luo, T. PI1M: A benchmark database for polymer informatics. J. Chem. Inf. Model.  60, 4684–4690 
+(2020). 
+12. Kim, S., Schroeder, C. M. & Jackson, N. E. Open Macromolecular Genome: Generative design of synthetically 
+accessible polymers. ACS Polym. Au  3, 318–330 (2023). 
+13. Ohno, M., Hayashi, Y., Zhang, Q., Kaneko, Y. & Yoshida, R. SMiPoly: Generation of a synthesizable polymer 
+virtual library using rule -based polymerization reactions. J. Chem. Inf. Model.  63, 5539–5548 (2023). 
+14. Hayashi, Y., Shiomi, J., Morikawa, J. & Yoshida, R. RadonPy: Automated physical property calculation using all -
+atom classical molecular dynamics simulations for polymer informatics. NPJ Comput. Mater.  8, 222 (2022). 
+15. Wu, S. et al. Machine-learning-assisted discovery of polymers with high thermal conductivity using a molecular 
+design algorithm. NPJ Comput. Mater.  5, 66 (2019). 
+16. Yamada, H. et al. Predicting materials properties with little data using shotgun transfe r learning. ACS Cent. Sci.  5, 
+1717–1730 (2019). 
+17. Minami, S. et al. Scaling law of Sim2Real transfer learning in expanding computational materials databases for real -
+world predictions. NPj Comput. Mater.  11, 146 (2025). 
+18. Peplow, M. AI is dreaming up m illions of new materials. Are they any good? Nature  646, 22–25 (2025). 
+19. McInnes, L., Healy, J. & Melville, J. UMAP: Uniform manifold approximation and projection for dimension 
+reduction. arXiv 1802.03426 (2018) doi:10.48550/arxiv.1802.03426.  
+20. Nanjo, S. et al. SPACIER: On-demand polymer design with fully automated all -atom classical molecular dynamics 
+integrated into machine learning pipelines. npj Comput. Mater.  11, 16 (2025). 
+21. Thompson, A. P. et al. LAMMPS - A flexible simulation tool f or particle-based materials modeling at the atomic, 
+meso, and continuum scales. Comput. Phys. Commun.  271, 108171 (2022). 
+22. Smith, D. G. A. et al. PSI4 1.4: Open -source software for high -throughput quantum chemistry. J. Chem. Phys.  152, 
+184108 (2020). 
+23. Ishii, M., Ito, T., Sado, H. & Kuwajima, I. NIMS polymer database PoLyInfo (I): An overarching view of half a 
+million data points. Sci. Technol. Adv. Mater.: Methods  4, 2354649 (2024). 
+24. Ishii, M., Ito, T. & Sakamoto, K. NIMS polymer database PoLyInfo (II): Machine-readable standardization of 
+polymer knowledge expression. Sci. Technol. Adv. Mater.: Methods  4, 2354651 (2024). 
+
+=== PDF PAGE 20 ===
+20 
+ 
+25. Ikebata, H., Hongo, K., Isomura, T., Maezono, R. & Yoshida, R. Bayesian molecular design with a chemical 
+language model. J. Comput.-Aided Mol. Des. 31, 379–391 (2017). 
+26. Wang, J., Wolf, R. M., Caldwell, J. W., Kollman, P. A. & Case, D. A. Development and testing of a general amber 
+force field. J. Comput. Chem. 25, 1157–1174 (2004). 
+27. Suzuki, Y., Higashihara, T., Ando, S. & Ue da, M. Synthesis and characterization of high refractive index and high 
+Abbe’s number poly(thioether sulfone)s based on tricyclo[5.2.1.02,6]decane moiety. Macromolecules  45, 3402–3408 
+(2012). 
+28. Okutsu, R., Ando, S. & Ueda, M. Sulfur -containing poly(meth) acrylates with high refractive indices and high 
+Abbe’s numbers. Chem. Mater.  20, 4017–4023 (2008). 
+29. Cai, B., Kaino, T. & Sugihara, O. Sulfonyl -containing polymer and its alumina nanocomposite with high Abbe 
+number and high refractive index. Opt. Mater. Express 5, 1210–1216 (2015). 
+30. Aoki, Y. et al. Multitask machine learning to predict polymer –solvent miscibility using Flory –Huggins interaction 
+parameters. Macromolecules  56, 5446–5456 (2023). 
+31. Kim, T., Drakopoulos, S. X., Ronca, S. & Minnich, A. J. Origin of high thermal conductivity in disentangled ultra -
+high molecular weight polyethylene films: ballistic phonons within enlarged crystals. Nat. Commun.  13, 2452 (2022). 
+32. Xu, Y. et al. Nanostructured polymer films with metal -like thermal conductivit y. Nat. Commun.  10, 1771 (2019). 
+33. Fransen, K. A. et al. High-throughput experimentation for discovery of biodegradable polyesters. Proc. Natl. Acad. 
+Sci. 120, e2220021120 (2023). 
+34. Irwin, J. J., Sterling, T., Mysinger, M. M., Bolstad, E. S. & Coleman,  R. G. ZINC: A free tool to discover chemistry 
+for biology. J. Chem. Inf. Model.  52, 1757–1768 (2012). 
+35. Mikami, H. et al. Machine learning and knowledge discovery in databases, European Conference, ECML PKDD 
+2022, Grenoble, France, September 19 –23, 2022, Proceedings , Part III. in 477–492 (2023). 
+36. Wu, S., Lambard, G., Liu, C., Yamada, H. & Yoshida, R. iQSPR in XenonPy: A Bayesian molecular design 
+algorithm. Mol. Inform. 39, 1900107 (2020). 
+37. Daylight. SMARTS – a language for describing molecular patterns. 
+https://www.daylight.com/dayhtml/doc/th eory/theory.smarts.html  (2022). 
+38. Landrum, G. et al. RDKit: Open-source cheminformatics. https://www.rdkit.org. 
+39. Bayly, C. I., Cieplak, P., Cornell, W. &  Kollman, P. A. A well-behaved electrostatic potential based method using 
+charge restraints for deriving atomic charges: The RESP model. J. Phys. Chem. 97, 10269–10280 (1993). 
+40. Roothaan, C. C. J. New developments in molecular orbital theory. Rev. Mod. P hys. 23, 69–89 (1951). 
+41. Mardirossian, N. & Head -Gordon, M. ωB97M -V: A combinatorially optimized, range -separated hybrid, meta -GGA 
+density functional with VV10 nonlocal correlation. J. Chem. Phys. 144, 214110 (2016). 
+42. Grimme, S., Ehrlich, S. & Goerigk , L. Effect of the damping function in dispersion corrected density functional 
+theory. J. Comput. Chem. 32, 1456–1465 (2011). 
+
+=== PDF PAGE 21 ===
+21 
+ 
+43. Larsen, G. S., Lin, P., Hart, K. E. & Colina, C. M. Molecular simulations of PIM -1-like polymers of intrinsic 
+microporosity. Macromolecules  44, 6944–6951 (2011). 
+44. Müller-Plathe, F. A simple nonequilibrium molecular dynamics method for calculating the thermal conductivity. J. 
+Chem. Phys.  106, 6082–6085 (1998). 
+45. Surblys, D., Matsubara, H., Kikugawa, G. & Ohara, T. Application  of atomic stress to compute heat flux via 
+molecular dynamics for systems with many -body interactions. Phys. Rev. E 99, 051301 (2019). 
+46. Surblys, D., Matsubara, H., Kikugawa, G. & Ohara, T. Methodology and meaning of computing heat flux via 
+atomic stress  in systems with constraint dynamics. J. Appl. Phys. 130, 215104 (2021). 
+47. Boone, P., Babaei, H. & Wilmer, C. E. Heat flux for many -body interactions: corrections to LAMMPS. J. Chem. 
+Theory Comput.  15, 5579–5587 (2019). 
+48. Sawada, R. &  Ando, S. Polarization analysis and humidity dependence of dielectric properties of aromatic and 
+semialicyclic polyimides measured at 10 GHz. J. Phys. Chem. C  128, 6979–6990 (2024). 
+49. Tolstaya, E. et al. Kernel mean embedding of distributions: a review a nd beyond. Found. Trends Mach. Learn.  10, 
+1–141 (2017). 
+50. Kusaba, M., Hayashi, Y., Liu, C., Wakiuchi, A. & Yoshida, R. Representation of materials by kernel mean 
+embedding. Phys. Rev. B 108, 134107 (2023). 
+  
+ 
+
+=== PDF PAGE 22 ===
+1 
+ 
+Supplementary Information 
+Omics-scale polymer computational database transferable to real-world 
+artificial intelligence applications 
+The RadonPy consortium* 
+* The authors and their affiliations are listed at the end of the main text. 
+ 
+ 
+Table of Contents 
+Supplementary Tables 
+Table S1: List of currently available polymer databases 
+Table S2: 20 polymer classes with the number of data entries in the PolyOmics database 
+Table S3: 62 properties with automated computation pipelines implemented in the current version of RadonPy, along 
+with the number of data entries registered in the PolyOmics database 
+Table S4:  19 organic solvents and plasticizers for χ parameter prediction 
+Table S5:  61 property datasets in the PoLyInfo database that were used for Sim2Real transfer from 43 source datasets 
+in PolyOmics 
+Table S6:  Ten different parameters constituting the kernel mean force field descriptor 
+ 
+Supplementary Figures 
+Fig. S1: Joint distribution of 19 different properties across over 69,532 polymers in their amorphous states 
+Fig. S2:  Comparison between RadonPy-calculated properties and experimental data 
+Fig. S3:  Generation of virtual ladder polymers 
+Fig. S4: Joint distribution of 14 different properties across 281 polyesters and 51 polycarbonates that were synthesized 
+in the biodegradability screening 
+Fig. S5:  Generation of ~50,000 virtual cellulose derivatives 
+Fig. S6:  Comparison of properties between small molecules and polymers 
+Fig. S7:  Violin plots showing the distribution of 43 properties across 20 polymer classes 
+ 
+Supplementary Notes 
+1 Automated Molecular Dynamics Simulations Using RadonPy 
+1.1 Overview of RadonPy 
+1.2 Software dependencies and installation guide 
+1.3 Handling SMILES 
+1.4 Conformational search for repeating units 
+1.5 Electronic property calculations of repeating units 
+1.6 Polymer chain generation 
+1.7 Assignment of force field parameters 
+1.8 Construction of amorphous polymer simulation cells 
+1.9 Equilibration simulation 
+1.10 Property calculations 
+1.11 NEMD simulations for thermal conductivity calculation 
+1.12 Calculation of frequency-dependent dielectric properties 
+1.13 Thermal conductivity calculation of stretched polymer materials 
+
+=== PDF PAGE 23 ===
+2 
+ 
+2 Polymer Generators 
+2.1 Chemical language models 
+2.2 SMiPoly polymer generator based on rule-based polymerization reactions 
+3 Machine learning prediction for polymer–solvent miscibility in PolyOmics 
+  
+
+=== PDF PAGE 24 ===
+3 
+ 
+Table S1. List of currently available polymer databases: P = presence; A = absence; E = experimental data; C = 
+computational data. 
+Database Description Property 
+data Data type Bulk 
+download URL Ref 
+PoLyInfo ~100 distinct properties 
+compiled for ~19,000 
+homopolymers and several 
+thousand copolymers and 
+polymer blends, extracted 
+from published literature 
+P E A https://polymer.nims
+.go.jp/ 
+[1,2] 
+ PI1M ~1M polymers generated 
+from deep generative 
+models; no property data is 
+included. 
+A C P https://github.com/R
+UIMINMA1996/PI1
+M 
+[3] 
+Polymer 
+Scholar 
+24 properties of ~100k 
+polymers, extracted from 
+published literature using 
+LLM  
+P E A https://polymerschol
+ar.org/ 
+[4] 
+polyVERSE A compilation of several 
+datasets gathered by a 
+research group at Georgia 
+Institute of Technology 
+P E & C P https://github.com/R
+amprasad-
+Group/polyVERSE 
+[5] 
+OMG A dataset of ~12M polymers 
+generated by applying 17 
+polymerisation rules to 
+purchasable monomers; no 
+property data is included. 
+A C P https://zenodo.org/r
+ecords/7556992 
+[6] 
+SMiPoly A dataset of ~180k polymers 
+generated by applying 22 
+polymerisation rules to 
+purchasable monomers; no 
+property data is included. 
+A C P https://github.com/P
+EJpOhno/SMiPoly 
+[7] 
+PolyOne ~100M hypothetical 
+polymers with 29 predicted 
+properties using machine 
+learning models 
+P C P https://zenodo.org/r
+ecords/7766806 
+[8] 
+RadonPy ~1k polymers with 15 
+properties calculated using 
+RadonPy 
+P C P https://github.com/R
+adonPy/RadonPy 
+[9] 
+PolyOmics ~130k polymers with 43 
+properties calculated using 
+RadonPy and machine 
+learning χ parameters for 19 
+solvents and plasticisers 
+P C P https://huggingface.
+co/datasets/yhayas
+hi1986/PolyOmics 
+This 
+article 
+ 
+Table S2. 20 polymer classes with the number of data entries in the general polymers dataset of the PolyOmics database. 
+Polymer class name Class label # of entries 
+# of unique 
+chemical 
+structures 
+# of entries 
+from 
+XenonPy 
+# of 
+entries 
+from 
+SMiPoly 
+Polyhydrocarbons PHYC 3,596 1,724 1,708 107 
+Polystyrenes PSTR 7,435 5,925 20,233 32,994 
+Polyvinyl, polyvinylidene PVNL 9,967 5,320 23,824 16,160 
+Polyacrylate PACR 7,194 4,613 95,855 88,614 
+
+=== PDF PAGE 25 ===
+4 
+ 
+ 
+Table S3. 62 properties with automated computation pipelines implemented in the current version of RadonPy, along with 
+the number of data entries registered in the PolyOmics database. 
+Halogen-containing polymers PHAL 1,387 1,331 1,614 2,112 
+Polyene PDIE 1,239 693 778 3 
+Polyether POXI 6,675 5,081 91,035 61 
+Polythioether PSUL 3,794 3,693 30,631 0 
+Polyester PEST 4,446 4,190 458,961 9,632 
+Polyamide PAMD 3,740 3,564 370,460 7,946 
+Polyurethane PURT 3,095 2,991 146,887 2,772 
+Polyurea PURA 2,876 2,857 55,968 0 
+Polyimide PIMD 8,237 6,268 176,614 6,553 
+Polyanhydrides PANH 3,879 3,472 61,776 1,434 
+Polycarbonate PCBN 3,388 3,235 38,891 138 
+Polyimines and nitrogen-containing 
+polymers other than polyamines and 
+polyamides 
+PIMN 4,615 3,875 34,658 0 
+Polyphosphazene PPHS 2,921 2,915 13,762 0 
+Polyketones PKTN 4,218 4,166 81,027 130 
+Polysulfon PSFO 4,064 3,974 49,147 332 
+Polyphenylene PPNL 3,200 3,159 24,210 359 
+Property name 
+(this article) 
+Abbreviation 
+(this article) 
+Notation in the 
+database 
+Unit in the 
+database Remarks # of 
+entries 
+Density Ρ Density g·cm⁻3  125,658 
+Specific heat 
+capacity at constant 
+pressure 
+Cp Cp J·mol⁻¹·K⁻¹ 
+ 
+125,654 
+Specific heat 
+capacity at constant 
+volume 
+Cv Cv J·mol⁻¹·K⁻¹ 
+ 
+125,654 
+Compressibility βT compressibility Pa⁻¹  125,654 
+Isentropic 
+compressibility βS isentropic_compre
+ssibility Pa⁻¹  125,654 
+Bulk modulus 
+(isothermal) KT bulk_modulus Pa  125,654 
+Isentropic bulk 
+modulus KS isentropic_bulk_m
+odulus Pa  125,654 
+Self-diffusion 
+coefficient D self-diffusion m2·s⁻¹  125,653 
+Linear expansion 
+coefficient CLTE linear_expansion K⁻¹  125,654 
+Volume expansion 
+coefficient CVTE volume_expansio
+n K⁻¹  125,654 
+
+=== PDF PAGE 26 ===
+5 
+ 
+Radius of gyration Rg Rg Å  125,658 
+Scaled radius of 
+gyration 
+Scaled Rg scaled_Rg Å 
+The scaled Rg was 
+defined as Rg scaled by 
+1/Mw0.6 to remove the 
+dependency on the 
+molecular weight of the 
+polymer (Mw). 
+125,658 
+Mean square end-
+to-end distance Re end-to-
+end_distance Å2  125,259 
+Nematic order 
+parameter Sn nematic_order_pa
+rameter 
+dimensionles
+s 
+ 125,275 
+Free volume Vfree free_volume Å3  0 
+Fractional free 
+volume VFFV fractional_free_vol
+ume Å3  0 
+Refractive index RI refractive_index dimensionles
+s 
+ 123,015 
+Refractive index 
+(486 nm) RID refractive_index_4
+86 
+dimensionles
+s 
+Refractive index at 486 
+nm 13,240 
+Refractive index 
+(589 nm) RIF refractive_index_5
+89 
+dimensionles
+s 
+Refractive index at 589 
+nm 13,240 
+Refractive index 
+(656 nm) RIC refractive_index_6
+56 
+dimensionles
+s 
+Refractive index at 656 
+nm 13,240 
+Abbe's number 𝜐 abbe_number dimensionles
+s 
+ 13,240 
+Cohesive energy 
+density CED sp_cep J·cm⁻3  58,834 
+Solubility parameter 
+(total) 𝛿total sp_total MPa0.5  58,834 
+Solubility parameter 
+(vdw) 𝛿vdw sp_vdw MPa0.5 
+vdW (Lennard-Jones 
+potential) term in 
+solubility parameter 
+58,834 
+Solubility parameter 
+(electric) 𝛿ele sp_ele MPa0.5 
+Electrostatic potential 
+term in the solubility 
+parameter 
+58,834 
+Solubility parameter 
+(short-range 
+electric) 
+𝛿ele−sr sp_ele_short MPa0.5 
+Pairwise coulombic 
+potential term in solubility 
+parameter 
+58,834 
+Solubility parameter 
+(long-range electric) 𝛿ele−lr sp_ele_long MPa0.5 
+Particle-Particle Particle-
+Mesh (PPPM) method 
+term (kspace term in 
+LAMMPS) in the solubility 
+parameter 
+58,834 
+Dielectric constant 
+(static) 𝜀(0) static_dielectric_c
+onst 
+dimensionles
+s 
+ 132,828 
+Corrected dielectric 
+constant (static) 𝜀corr(0) dielectric_const_d
+c 
+dimensionles
+s 
+Defined as (static 
+dielectric constant) – 1 + 
+(refractive index)2 
+123,015 
+Dynamic dielectric 
+constant 𝜀′ efdp_permittivity_r
+eal 
+dimensionles
+s 
+Dynamic dielectric 
+constant with a frequency 
+range from 10 to 500 
+GHz 
+1,084 
+Dielectric loss 𝜀′′ efdp_permittivity_i
+maginary 
+dimensionles
+s 
+Frequency range from 10 
+to 500 GHz 1,084 
+Dielectric loss 
+tangent  tan𝛿 efdp_dielectric_lo
+ss_tan 
+dimensionles
+s 
+Frequency range from 10 
+to 500 GHz 1,084 
+Molecular weight 
+(repeating unit) M mol_weight_mono
+mer   125,258 
+vdw volume 
+(repeating unit) Vvdw vdw_volume_mon
+omer Å3  125,258 
+
+=== PDF PAGE 27 ===
+6 
+ 
+Dipole moment 𝜇 qm_dipole_mome
+nt_monomer debye DFT calculated value 125,225 
+Polarizability 𝑎 qm_polarizability_
+monomer Å3 DFT calculated value 124,274 
+Polarizability (486 
+nm) 𝑎D 
+qm_polarizability_
+sos_486_monome
+r 
+Å3 
+Dynamic polarizability at 
+486 nm by sum-over-
+state (SOS) approach 
+using TD-DFT 
+13,240 
+Polarizability (589 
+nm) 𝑎F 
+qm_polarizability_
+sos_589_monome
+r 
+Å3 
+Dynamic polarizability at 
+589 nm by the SOS 
+approach using TD-DFT 
+13,240 
+Polarizability (656 
+nm) 𝑎C 
+qm_polarizability_
+sos_656_monome
+r 
+Å3 
+Dynamic polarizability at 
+656 nm by the SOS 
+approach using TD-DFT 
+13,240 
+Total energy Eetot qm_total_energy_
+monomer hartree DFT calculated value 125,225 
+HOMO HOMO qm_homo_mono
+mer eV DFT calculated value 125,225 
+LUMO LUMO qm_lumo_monom
+er eV DFT calculated value 125,225 
+Thermal 
+conductivity Κ thermal_conductiv
+ity W·m⁻¹·K⁻¹  116,922 
+Thermal diffusivity Λ thermal_diffusivity m2·s⁻¹  116,919 
+Thermal 
+conductivity (kinetic 
+energy) 
+κke TC_ke W·m⁻¹·K⁻¹ 
+Kinetic energy term in the 
+thermal conductivity by 
+decomposition analysis 
+116,539 
+Thermal 
+conductivity 
+(potential energy) 
+κpe TC_pe W·m⁻¹·K⁻¹ 
+Potential energy term in 
+the thermal conductivity 
+by decomposition 
+analysis 
+116,539 
+Thermal 
+conductivity 
+(pairwise 
+interaction) 
+κpair TC_pair W·m⁻¹·K⁻¹ 
+Pairwise coulombic 
+interaction term in the 
+thermal conductivity by 
+decomposition analysis 
+116,539 
+Thermal 
+conductivity (bond) κbond TC_bond W·m⁻¹·K⁻¹ 
+Bond stretching term in 
+the thermal conductivity 
+by decomposition 
+analysis 
+116,539 
+Thermal 
+conductivity (angle) κangle TC_angle W·m⁻¹·K⁻¹ 
+Bond bending term in the 
+thermal conductivity by 
+decomposition analysis 
+116,539 
+Thermal 
+conductivity 
+(dihedral angle) 
+κdihed TC_dihed W·m⁻¹·K⁻¹ 
+Bond rotation term in the 
+thermal conductivity by 
+decomposition analysis 
+116,539 
+Thermal 
+conductivity 
+(improper angle) 
+κimproper TC_improper W·m⁻¹·K⁻¹ 
+Improper angle term in 
+the thermal conductivity 
+by decomposition 
+analysis 
+116,539 
+Thermal 
+conductivity (K-
+space) 
+κkspace TC_kspace W·m⁻¹·K⁻¹ 
+K-space term in the 
+thermal conductivity by 
+decomposition analysis 
+116,539 
+Glass transition 
+temperature Tg tg K  84,368 
+Thermal expansion 
+coefficient (below 
+Tg) 
+CTEb 
+tg_thermal_expan
+sion_coef(below_t
+g) 
+K⁻¹ 
+Calculated from the 
+gradient of density and 
+temperature 
+83,985 
+Thermal expansion 
+coefficient (upper 
+Tg) 
+CTEu 
+tg_thermal_expan
+sion_coef(upper_t
+g) 
+K⁻¹ 
+Calculated from gradient 
+of density and 
+temperature 
+83,985 
+
+=== PDF PAGE 28 ===
+7 
+ 
+ 
+Table S4. 19 organic solvents and plasticisers for χ parameter prediction 
+Tensile modulus Y tem_tensile_modu
+lus GPa  0 
+Poisson ratio 𝜈 tem_poisson_ratio dimensionles
+s 
+ 0 
+Bulk modulus 
+(calculated by 
+uniaxial stretching) 
+Ktensile tem_bulk_modulu
+s GPa 
+Calculated from Young 
+modulus and Poisson 
+ratio by uniaxial 
+stretching simulation 
+0 
+Shear modulus Gtensile tem_shear_modul
+us GPa 
+Calculated from Young 
+modulus and Poisson 
+ratio by uniaxial 
+stretching simulation 
+0 
+Lame constant Λtensile tem_lame_consta
+nt GPa 
+Calculated from Young 
+modulus and Poisson 
+ratio by uniaxial 
+stretching simulation 
+0 
+Tensile viscosity 𝜂tensile tem_tensile_visco
+sity Pa·s 
+Calculated from Young 
+modulus by uniaxial 
+stretching simulation 
+0 
+Speed of sound C tem_speed_of_so
+und m·s⁻¹ 
+Calculated from Young 
+modulus and shear 
+modulus by uniaxial 
+stretching simulation 
+0 
+Name Type SMILES CAS number Notes 
+Hexane Solvent CCCCCC 110-54-3 Non-polar solvent, used for 
+polyolefins and cleaning. 
+Benzene Solvent c1ccccc1 71-43-2 Aromatic non-polar solvent, toxic 
+and regulated. 
+Acetone Solvent CC(=O)C 67-64-1 
+Polar aprotic, low boiling point, 
+used for cleaning and 
+dissolution. 
+Ethanol Solvent CCO 64-17-5 
+Polar aprotic, low boiling point, 
+used for cleaning and 
+dissolution. 
+DMSO (dimethyl 
+sulfoxide) Solvent CS(=O)C 67-68-5 Strongly polar aprotic solvent 
+with high solvation power. 
+Water Solvent O 7732-18-5 Polar protic solvent, essential for 
+hydrophilic systems. 
+Chloroform Solvent ClC(Cl)Cl 67-66-3 Non-polar halogenated solvent, 
+toxic. 
+DMF 
+(dimethylformamide) Solvent O=CN(C)C 
+ 68-12-2 Polar aprotic solvent, used for 
+polyamide and polyurethane. 
+THF (tetrahydrofuran) Solvent C1CCOC1 109-99-9 Medium polarity, widely used in 
+polymerisation and dissolution. 
+Diethyl ether Solvent CCOCC 60-29-7 Low boiling, highly flammable, 
+used in extraction and washing. 
+Methanol Solvent CO 67-56-1 Polar protic solvent, common 
+reaction medium. 
+
+=== PDF PAGE 29 ===
+8 
+ 
+ 
+Table S5. 61 property datasets in the PoLyInfo database used for Sim2Real transfer from 43 source datasets in PolyOmics. 
+Ethyl acetate Solvent CC(=O)OCC 141-78-6 Medium polarity ester, used in 
+coatings and adhesives. 
+Toluene Solvent Cc1ccccc1 108-88-3 Aromatic non-polar solvent, 
+used for polystyrene, etc. 
+Cyclohexane Solvent C1CCCCC1 110-82-7 Non-polar solvent, solubility 
+testing. 
+1,4-Dioxane Solvent O1CCOCC1 123-91-1 
+Ether-type solvent with high 
+solvation power, regulated in 
+some regions. 
+DEHP (di(2-
+ethylhexyl) phthalate) Plasticizer CCCCC(CC)COC(=O)c1ccc
+cc1C(=O)OCC(CC)CCCC 117-81-7 Phthalate plasticizer (PVC), 
+regulated in many regions. 
+DEHA (di(2-
+ethylhexyl) adipate) Plasticizer CCCCC(CC)COC(=O)CCCCC
+(=O)OCC(CC)CCCC 103-23-1 
+Adipate-type plasticizer, 
+improves low-temperature 
+flexibility. 
+ATBC (acetyl tributyl 
+citrate) Plasticizer 
+CCCCOC(=O)CC(CC(=O)OC
+CCC)(C(=O)OCCCC)OC(=O
+)C 
+77-90-7 Citrate-type non-phthalate 
+plasticizer. 
+DEGDB (diethylene 
+glycol dibenzoate) Plasticizer O=C(OCCOCCOC(=O)c1ccc
+cc1)c2ccccc2 120-55-8 Benzoate-type non-phthalate 
+plasticizer. 
+Property names Remarks on data extraction protocol # of entries 
+Brittleness temperature  61 
+Charpy impact  17 
+Compressive modulus  14 
+Contact angle  132 
+Cp Data measured near Tg is excluded 104 
+Crystallization temperature  151 
+Deflection temperature under 
+load  44 
+Density  607 
+Dielectric constant (under AC; all 
+data)  296 
+Dielectric constant (under AC; 
+high-frequency) Frequency range >= 1 GHz 80 
+Dielectric constant (under AC; 
+middle-frequency) Frequency range >= 1 MHz, < 1 GHz 78 
+Dielectric constant (under AC; 
+low-frequency) Frequency range < 1 MHz 193 
+Dielectric constant (under DC)  34 
+Elongation at break  485 
+Elongation at yield  51 
+Flexural modulus  34 
+
+=== PDF PAGE 30 ===
+9 
+ 
+Flexural storage modulus (all 
+data)  31 
+Flexural storage modulus (low-
+frequency) Frequency range <= 1 Hz 27 
+Flexural stress at break  24 
+Gas permeability coefficient 
+(CO2)  276 
+Gas permeability coefficient (N2)  244 
+Gas permeability coefficient (O2)  321 
+Growth rate of crystal  26 
+Hansen solubility parameter 
+(dispersion)  56 
+Hansen solubility parameter 
+(hydrogen bond)  55 
+Hansen solubility parameter 
+(polar)  55 
+Heat of crystallization  55 
+Heat of fusion  258 
+Linear expansion coefficient  215 
+Refractive index  234 
+Shear storage modulus (all data)  51 
+Shear storage modulus (low-
+frequency) Frequency range <= 1 Hz 43 
+Shear storage modulus loss 
+tangent (all data)  46 
+Shear storage modulus loss 
+tangent (low-frequency) Frequency range <= 1 Hz 37 
+Shore hardness  28 
+Solubility parameter (Hildebrand)  292 
+Stress-optical coefficient  36 
+Surface tension  130 
+Tensile loss modulus (all-data)  82 
+Tensile loss modulus (high-
+frequency) Frequency range >= 100 Hz 40 
+Tensile loss modulus (middle-
+frequency) Frequency range > 1 Hz, < 100 Hz 29 
+Tensile loss modulus (low-
+frequency) Frequency range <= 1 Hz 18 
+Tensile modulus  293 
+Tensile storage modulus (all data)  164 
+Tensile storage modulus (high-
+frequency) Frequency range >= 100 Hz 50 
+Tensile storage modulus (middle-
+frequency) Frequency range > 1 Hz, < 100 Hz 87 
+Tensile storage modulus (low-
+frequency) Frequency range <= 1 Hz 41 
+
+=== PDF PAGE 31 ===
+10 
+ 
+ 
+Table S6. 10 different parameters constituting the kernel mean force field descriptor. Each parameter value is defined on 
+the elemental types of an atomic group forming an atom, bond, bond angle, and dihedral angle. For a given polymer, the 
+descriptor is constructed by embedding the occurrence frequency of force field parameters into a feature space. 
+ 
+Tensile storage modulus loss 
+tangent (all data)  107 
+Tensile storage modulus loss 
+tangent (high-frequency) Frequency range >= 100 Hz 48 
+Tensile storage modulus loss 
+tangent (middle-frequency) Frequency range > 1 Hz, < 100 Hz 45 
+Tensile storage modulus loss 
+tangent (low-frequency) Frequency range <= 1 Hz 25 
+Tensile stress at break  534 
+Tensile stress at yield  138 
+Tg (glass transition temperature)  4,936 
+Thermal conductivity  39 
+Thermal decomposition 
+temperature  2,747 
+Tm (melting point)  1,655 
+Vicat softening temperature  63 
+Volume expansion coefficient  166 
+Water absorption  321 
+Water vapor transmission  57 
+Atomic group Parameter Description 
+Atom 
+Mass Atomic mass 
+𝜎LJ Determining the equilibrium distance of vdW interactions 
+𝜀LJ Depth of the potential well of vdW interactions 
+Charge Atomic charge of the Gasteiger charge model 
+Bond 
+r0 Equilibrium length of chemical bonds 
+𝐾bond Force constant of bond stretching 
+Polar Bond polarisation defined by the absolute value of charge difference 
+between atoms in a bond 
+Bond angle 
+𝜃0 Equilibrium angle of bond angles 
+𝐾angle Force constant of bond bending 
+Dihedral angle 𝐾dihedral Rotation barrier height of dihedral angles 
+
+=== PDF PAGE 32 ===
+11 
+ 
+ 
+Fig. S1. Joint distribution of 19 different properties across over 69,532 isotropic amorphous polymers in  the general 
+polymer dataset and the cellulose derivatives dataset: (1) thermal conductivity [W⋅m−1⋅K−1], (2) static dielectric constant, 
+(3) linear expansion coefficient [10 -4 K−1], (4) refractive index, (5) radius of gyration [ Å], (6) C p [103 J⋅kg−1⋅K−1], (7) 
+density [g⋅cm3], (8) self-diffusion coefficient [10-11 m2⋅s-1], (9) Cv [103 J⋅kg−1⋅K−1], (10) compressibility [GPa−1], (11) bulk 
+modulus [GPa], (12) volume expansion coefficient [10-3 K−1], (13) nematic order parameter, (14) thermal diffusivity [10-
+7 m2⋅s−1], (15) van der Waals volume (constitutional repeating unit; CRU) [103 Å3], (16) HOMO (CRU) [eV], (17) LUMO 
+(CRU) [eV], (18) dipole moment (CRU) [Debye], and (19) polarizability (CRU) [Å3]. 
+ 
+
+
+=== PDF PAGE 33 ===
+12 
+ 
+ 
+Fig. S2. Comparison between RadonPy-calculated properties and experimental data: a. density, b. thermal conductivity 
+(𝜅 , rt), c. specific heat capacity at constant pressure ( Cp, rt), d. refractive index, e. Abbe number, f. glass transition 
+temperature (Tg), g. linear thermal expansion coefficient (CLTE, rt), h. volumetric thermal expansion coefficient (CVTE, 
+rt), i. dynamic dielectric constant (𝜀′, 10 GHz), j. dielectric loss tangent (tan𝛿, 10 GHz), k. solubility parameter (𝛿total), 
+l. solubility parameter (𝛿vdw), and m. solubility parameter (𝛿e). 
+ 
+ 
+ 
+
+
+=== PDF PAGE 34 ===
+13 
+ 
+Fig. S3. Generation of virtual ladder polymers. We use 170 distinct ring structures (R), each having four polymeri sable 
+sites, in conjunction with eight types of alkyl linker groups (L), each containing two polymeri sable sites. By combining 
+these components within an R -R-L framework, we generate  a total of 1,360 distinct ladder polymers (170 × 8 
+combinations) and their corresponding non-ladder polymers. Selected 519 ladder polymers and their corresponding non-
+ladder polymers are calculated and included in the PolyOmics. 
+ 
+ 
+ 
+
+
+=== PDF PAGE 35 ===
+14 
+ 
+ 
+Fig. S4. Joint distributions of 14 different properties across 357 polyesters and 26 polycarbonates that are synthesised 
+during biodegradability screening 10: (1) thermal conductivity [ W⋅m−1⋅K−1], (2) static dielectric constant, (3) linear 
+expansion coefficient [10-4 K−1], (4) refractive index, (5) radius of gyration [Å], (6) CP [103 J⋅kg−1⋅K−1], (7) density [g⋅cm-
+3], (8) self-diffusion coefficient [10 -11 m2⋅s-1], (9) C V [103 J⋅kg−1⋅K−1], (10) compressibility [GPa −1], (11) bulk modulus 
+[GPa], (12) volume expansion coefficient [10-3 K−1], (13) glass transition temperature [102 K], and (14) thermal diffusivity 
+[10-7 m2⋅s−1].  
+ 
+
+
+=== PDF PAGE 36 ===
+15 
+ 
+ 
+Fig. S5. Generation of 50,661 virtual cellulose derivatives. Purchasable fragments from the ZINC database are inserted 
+into one or more of the three substitution sites on the cellulose molecule.  
+ 
+ 
+
+
+=== PDF PAGE 37 ===
+16 
+ 
+ 
+Fig. S6. Comparison of properties between polymers  and small molecules , which correspond to repeating units . a. 
+Number of small molecule data entries for each of the 20 polymer classes. b. Comparison of small molecules and polymer 
+properties for 14 properties. c. Pea rson’s correlation coefficients between small molecules  and polymer properties, 
+organised by polymer class (rows) and property (columns). 
+ 
+
+
+=== PDF PAGE 38 ===
+17 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 39 ===
+18 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 40 ===
+19 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 41 ===
+20 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 42 ===
+21 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 43 ===
+22 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 44 ===
+23 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 45 ===
+24 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 46 ===
+25 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 47 ===
+26 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 48 ===
+27 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 49 ===
+28 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 50 ===
+29 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 51 ===
+30 
+ 
+ 
+ 
+ 
+Fig. S7. Violin plots showing the distribution of 43 properties across 20 polymer classes of the general polymer dataset 
+and the cellulose derivatives dataset. 
+ 
+  
+
+
+=== PDF PAGE 52 ===
+31 
+ 
+Supplementary Notes 
+  
+1. Automated Molecular Dynamics Simulations using RadonPy 
+1.1 Overview of RadonPy 
+RadonPy9, available as an open-source Python library (https://github.com/RadonPy/RadonPy), provides a fully automated 
+pipeline for performing both equilibrium and non-equilibrium molecular dynamics (MD) simulations for a wide range of 
+polymers and their associated physical properties. The simulation engine integrate s LAMMPS for classical MD 
+simulations with Psi4 to perform ab initio quantum chemical calculations. The force field parameters for the polymers are 
+assigned using GAFF/GAFF2, and input/output handling is implemented using the RDKit cheminformatics library.  
+The simulation workflow includes: 
+• Repeating unit generation 
+• Automated conformation search 
+• DFT-based electronic property calculations 
+• Initial configuration generation 
+• Force field parameter assignment 
+• Generation of simulation cells 
+• Equilibration MD simulations 
+• Assessment of equilibrium status 
+• Calculation of a set of properties from the equilibration MD trajectories  
+• (Optional) Calculation of solubility parameters.  
+• (Optional) Calculation of glass transition temperature 
+• (Optional) Calculation of thermal conductivity  
+• (Optional) Calculation of dielectric properties 
+• (Optional) Calculation of uniaxially oriented structure properties 
+This fully automated pipeline enables reproducible  high-throughput screening of polymer properties across diverse 
+chemical structures. 
+1.2 Software Dependencies and Installation Guide 
+Currently, RadonPy operates reliably in environments using Python 3.8 –3.12. The system depends not only on the core 
+components, such as LAMMPS, Psi4, and RDKit , but also on several fundamental Python libraries, including SciPy, 
+Pandas, and matplotlib.  
+Additionally, RadonPy incorporates specialised tools to support key features such as: 
+・ The resp package is a Python implementation of the Restrained Electrostatic Potential (RESP) method for computing 
+atomic partial charges. 
+・ The dftd3 package applies van der Waals dispersion corrections to quantum chemistry calculations. 
+・ The mdtraj library is used for post-processing and analysing molecular dynamics trajectories. 
+To ensure a stable environmental setup, these dependencies should be installed in advance via Conda before installing 
+RadonPy. Installation guidelines and detailed information on the recommended package versions and configurations are 
+available in the official GitHub repository. 
+1.3 Handling SMILES 
+The SMILES string, representing the chemical structure of a constitutional repeating unit (CRU) , contains two asterisks 
+(*) that designate the polymer connection points. Structural information, including atoms, bonds, and atomic coordinates, 
+is encoded using  an RDKit Mol object. In RadonPy, th e Mol object is slightly extended to support polymer -specific 
+modelling and MD simulations.  
+For stereochemical ambiguities, default conventions are applied as: 
+・ If the cis/trans isomerism is unspecified, then the trans isomer is generated by default. 
+・ If R/S chirality is undefined, the S isomer is assumed. 
+These defaults ensure consistency across automatic structure generation , while allowing users to explicitly specify the 
+required stereochemistry. 
+
+=== PDF PAGE 53 ===
+32 
+ 
+1.4 Conformational Search for Repeating Units 
+To explore the initial conformation  of a CRU, several thousand conformers (e.g., 1,000) are generated from the input 
+SMILES string using the ETKDG v2 algorithm 11–13 implemented in the RDKit library. T he t wo asterisks (*) in the 
+SMILES notation for each CRU are temporarily capped with hydrogen atoms for conformational generation. 
+Each generated conformer is optimised geometrically, and its potential energy is calculated by performing  molecular 
+mechanics calculations with the GAFF2 force field. The resulting low -energy conformers are clustered using Butina 
+clustering, based on torsion fingerprint deviation14, to eliminate redundant structures. 
+From the clustered set, the four most stable conformers are selected for further refinement using density functional theory 
+(DFT). These DFT calculations employ  the ωB97M-D3BJ functional 15,16 with the 6 -31G(d,p) basis set 17,18. The final , 
+most stable conformer is determined based on the DFT total energies. 
+1.5 Electronic Property Calculations of Repeating Units 
+The atomic partial charges of each CRU are computed using the RESP model  based on a single -point Hartree –Fock 
+calculation19 with the 6–31G(d) basis set, applied to the optimised geometry of the most stable conformer. 
+To evaluate key electronic properties, additional single-point DFT calculations are conducted using the ωB97M-D3BJ 
+functional15,16 with the 6–311G(d,p) basis set15,16,20–22 for H, C, N, O, F, P, S, Cl, and Br, and the LanL2DZ basis set23 for 
+I. These calculations yield the total electronic energy, the highest occupied molecular orbital (HOMO) energy level, the 
+lowest unoccupied molecular orbital (LUMO) energy level, and the dipole moment. 
+Furthermore, the dipole polarizability tensor is determined using the finite field method under an external electric field of 
+1.0 × 10-4 a.u. Moreover, DFT calculations are conducted with the ωB97M-D3BJ functional in combination with the 6 –
+311+G(2d,p) basis set 15,16,20–22,24,25 for H, C, N, O, F, P, S, and Cl ; 6 –311G(d,p) for Br; and LanL2DZ for I. The 6–
+311+G(2d,p) is specifically selected to account for both the diffuse and double polarisation functions, which are essential 
+for accurate polarisability predictions26. 
+In this step, various DFT properties of the isolated CRU, such as polarizability and dipole moment, are determined 
+(Section 1.10). Additionally, when evaluating the Abbe number, time-dependent DFT (TD-DFT) is optionally performed. 
+DFT calculations are conducted using the CAM-B3LYP-D3 functional in combination with the 6–311+G(2d,p) basis set. 
+1.6 Polymer Chain Generation 
+Polymer chains are constructed by connecting repeating units using a self-avoiding random walk (SAW) algorithm. Each 
+repeating unit, specified by a SMILES string with two asterisks representing the attachment points, is capped with 
+hydrogen atoms during chain growth. To prevent undesired chiral inversions and cis/trans isomeri sation due to strain 
+accumulation, geometric constraints are enforced. The bond between the head atom of the growing chain and its capping 
+hydrogen, and the bond between the tail atom of the next unit and its capping hydrogen, are aligned coaxially and arranged 
+in antiparallel. Subsequently, the two capping hydrogen atoms are removed, and a new covalent bond between the head 
+and tail atoms is introduced with a fixed bond length of 1.5 Å. The dihedral angle around the new bond is randomly 
+sampled from −180° to +180° during each SAW step. Tacticity is controlled during the chain-building process using 
+RadonPy. For this study, all polymers are generated atactically (random stereochemistry) by default. 
+To ensure charge neutrality, partial charges of the removed capping hydrogen atoms are redistributed to the bonded atoms. 
+When generating the amorphous polymer dataset, polymer chains containing approximately 1,000 atoms  are used , 
+resulting in varying degrees of polymeri sation depending on the size of the repeating unit. This approach allow s for 
+consistent molecular weights across different polymers, ensuring a fair comparison of the computed physical properties. 
+1.7 Assignment of Force Field Parameters 
+In RadonPy, GAFF2 parameters can be automatically assigned to each polymer chain , including a comprehensive set of 
+molecular and mechanical parameters. 
+・ Bonded interactions: force constants and equilibrium values for bonds, bond angles, dihedral angles, and improper 
+torsion 
+・ Torsional parameters: multiplicity and phase angles 
+・ Non-bonded interactions: atomic partial charges, vacuum dielectric constant, and Lennard –Jones parameters 
+(defining both the depth of the potential well and the equilibrium interatomic distance)  
+When GAFF2 lacks predefined parameters, particularly for bond angles involving rare atom groups, RadonPy empirically 
+estimates the values using the same heuristic rules as in the original GAFF2 implementation. 
+
+=== PDF PAGE 54 ===
+33 
+ 
+In addition to GAFF2, users can optionally select alternative force fields, such as GAFF or Dreiding, depending on their 
+specific modelling requirements or compatibility constraints. 
+1.8 Construction of Amorphous Polymer Simulation Cells 
+To simulate amorphous polymers using MD, a simulation cell was constructed by randomly placing and orienting ten 
+polymer chains in a non -overlapping configuration, resulting in a system containing approximately 10,000 atoms. The 
+initial cell density was set to 0.05 g·cm⁻³ and subsequently increased through a multi-step packing simulation. 
+Owing to its low initial density, a packing protocol was employed to achieve a physically realistic configuration. First, 
+the 1 ns NVT simulation was performed using a Nosé–Hoover thermostat while gradually heating the system from 300 to 
+700 K. Another 1  ns NVT simulation was performed at 700 K, during which the simulation box was isotropically 
+compressed to a target density of 0.8 g·cm⁻³. 
+To prevent the polymer chains from collapsing into globular conformations due to strong intramolecular interactions, 
+Coulombic forces were disabled during this process, and the Lennard –Jones potential was truncated at 3.0  Å. These 
+conditions maintained the polymers in random -coil states while ensuring entanglement through excluded volume effects  
+as chain crossings were prevented. 
+A time step of 1 fs was considered, and periodic boundary conditions (PBC) were applied in all directions. All the bond 
+lengths and angles, including those involving hydrogen atoms, were constrained using the SHAKE algorithm 27. 
+1.9 Equilibration Simulation 
+Following the packing process, the amorphous polymer systems were equilibrated using Larsen’s 21 -step compression–
+decompression protocol, which alternated the temperature and pressure cycles to remove non-physical configurations and 
+accelerate equilibration. Specifically, the system was repeatedly heated from 300 to 600 K and then cooled back to 300 K 
+while simultaneously undergoing compression up to 50,000  atm, followed by decompression to 1  atm, to construct the 
+amorphous dataset . These cycles were performed over approximately 1.5  ns using a combination of NVT and NPT 
+ensembles, with the temperature and pressure controlled by the Nosé–Hoover thermostat and barostat. 
+After the 21-step protocol, the system was subjected to NPT simulations at 300 K and 1 atm for over 5 ns. The equilibrium 
+state was evaluated every 5 ns. The equilibration was considered successful when the following relative standard deviation 
+(RSD) thresholds were satisfied: 
+・ Total and kinetic energies: < 0.05% 
+・ Bond and bond angle energies: < 0.1% 
+・ Dihedral energy: < 0.2% 
+・ van der Waals and long-range Coulomb energies: < 0.1% 
+・ Density: < 0.1% 
+・ Radius of gyration: < 1% 
+Simulations that failed to meet these criteria after 50 ns were deemed unsuccessful and excluded from further analysis. 
+Technical parameters for the equilibration simulation included: 
+・ Time step: 1 fs 
+・ Periodic boundary conditions (PBC): applied in all directions. 
+・ Bond constraints: enforced using the SHAKE algorithm for all bonds and angles, including those involving 
+hydrogen atoms. 
+・ Non-bonded interactions: handled using the twin-range cutoff method with short- and long-range cutoffs of 8° and 
+12°, respectively. 
+・ Electrostatics: treated using the particle–particle particle–mesh (PPPM) method. 
+Finally, the nematic order parameter was evaluated to confirm the amorphous nature of the system (Section 1.10). 
+Structures with values ≥ 0.1 were classified as exhibiting orientational ordering and were excluded from the dataset.  
+1.10  Property Calculations 
+Various physical properties and structural descriptors were computed from the equilibrium MD trajectories. Following 
+polymer equilibration, NEMD simulations were performed to evaluate thermal conductivity via energy exchange under 
+a temperature gradient (Section 1.12)  and to compute the frequency-dependent dielectric properties under an applied 
+alternating electric field. Additionally, the automated simulation module provided functionality for evaluating the material 
+properties under uniaxial stretching, calculating the solubility parameters, and estimating the glass transition temperature. 
+
+=== PDF PAGE 55 ===
+34 
+ 
+The density 𝜌 (g/cm3) during the NPT ensemble simulation was calculated using the total mass (m) of all atoms and the 
+volume (V) of the simulation box as: 
+𝜌 =  𝑚
+〈𝑉〉 (1) 
+where the angular brackets 〈∙〉 represent time averaging after the system reaches equilibrium. 
+The radius of gyration Rg (Å) was calculated as: 
+𝑅𝑔 =  √1
+𝑁 ∑‖𝒓𝑘 − 𝒓mean‖2
+𝑁
+𝑘=1
+ (2) 
+where rk is the centre of a repeating unit k, N is the polymerisation degree, rmean denotes the average positions, and ‖∙‖ 
+represents the Euclidean norm. The centre was calculated as the weighted average of the atomic position vectors, using 
+the atomic masses as weights. 
+Scaled Rg (dimensionless) was calculated as: 
+𝑅gscaled =  
+𝑅𝑔
+𝑀𝑤
+0.6 (3) 
+where Mw is the molecular weight of the polymer chains, enabling the comparison between polymers of different lengths. 
+The mean square end-to-end distance Re (Å) of a polymer chain was calculated as: 
+𝑅e =  
+1
+𝑀 ∑‖𝒓𝑒(𝑙)− 𝒓0(𝑙)‖2
+𝑀
+𝑙=1
+ (4) 
+where re(l) and r0(l) are the position vectors of the two terminal groups in each polymer chain (l). This value was averaged 
+over the simulation trajectory, where M denotes the number of polymer chains in the simulation cell . The end -to-end 
+distance provided a direct measure of the overall chain extension or compactness of a polymer. 
+Specific heat capacity at constant pressure Cp (J·mol⁻¹·K⁻¹) was calculated from the fluctuations in enthalpy H as: 
+𝐶P =  
+〈δ𝐻2〉
+𝑘B ∙ 𝑇2 ∙ 𝑚 (5) 
+where kB is the Boltzmann constant, T is the temperature, m is the total mass of the system, and 〈δ𝐻2〉 denotes the 
+variance in enthalpy fluctuations. During NPT simulations, the instantaneous pressure exhibit ed significant fluctuations, 
+which introduced errors in the direct calculation of CP. To mitigate this issue, the enthalpy was calculated at a constant 
+pressure of 1 atm, ensuring a more accurate estimation of the specific heat capacity. 
+Isothermal compressibility βT (Pa⁻¹) and isothermal bulk modulus KT (Pa) were calculated from the fluctuations in the 
+volume (V) as: 
+𝛽𝑇 =  
+〈𝛿𝑉2〉
+𝑘B ∙ 𝑇 ∙ 〈𝑉〉 (6) 
+𝐾𝑇 =  1
+𝛽𝑇
+ (7) 
+where 〈𝑉〉  is the mean system volume  and 〈𝛿𝑉2〉  is the variance of the volume fluctuations. The isothermal 
+compressibility quantifies the relative change in volume in response to an infinitesimal change in pressure at a constant 
+temperature, whereas the isothermal bulk modulus represents the resistance of the system to uniform compression. 
+The volumetric thermal expansion coefficient  CVTE (K-1) was calculated from the covariance 〈𝛿𝑉𝛿𝐻〉  between 
+volume (V) and enthalpy (H) as: 
+
+=== PDF PAGE 56 ===
+35 
+ 
+CVTE=  
+〈𝛿𝑉 ∙ 𝛿𝐻〉
+𝑘B ∙ 𝑇2 ∙ 〈𝑉〉 (8) 
+Enthalpy was calculated at a constant pressure of 1 atm to avoid inaccuracies arising from significant pressure fluctuations 
+in the NPT simulations. 
+The linear thermal expansion coefficient CLTE (K-1) in the isotropic systems was calculated as: 
+CLTE=  CVTE
+3  (9) 
+This relationship assumes isotropy, wherein the expansion is considered uniform along all three spatial directions. 
+The specific heat capacity at constant volume CV (J·mol⁻¹·K⁻¹) was calculated by relating CV to CP, αP, and βT as: 
+𝐶𝑉 = 𝐶𝑃 − CVTE2 ∙ 𝑇〈𝑉〉
+𝛽𝑇 ∙ 𝑚  (10) 
+The expression arose from standard thermodynamic relations and account ed for the work performed during thermal 
+expansion at constant pressure. Therefore, CV was evaluated using the quantities obtained from NPT simulations, without 
+requiring direct constant-volume simulations. 
+The isentropic compressibility βS (Pa-1) and isentropic bulk modulus KS (Pa) were calculated as: 
+𝛽𝑆 =  𝛽𝑇
+𝐶𝑉
+𝐶𝑃
+ (11) 
+𝐾𝑆 =  1
+𝛽𝑆
+ (12) 
+These relations follow standard thermodynamic identities, where the isentropic compressibility accounts for the change 
+in volume under adiabatic (constant entropy) conditions, and the isentropic bulk modulus represents the corresponding 
+resistance of the system to compression. 
+The self-diffusion coefficient D (m²⋅s-1) was calculated using the Einstein equation as: 
+𝐷 =  lim
+t→∞
+1
+6𝑡 〈‖𝒓(𝑡 + 𝑡0)− 𝒓(𝑡0)‖2〉 (13) 
+where 𝒓(𝑡) denotes the atomic position at time (t) and the brackets indicate the ensemble average over all particles at the 
+time of origin (𝑡0). The procedure was conducted based on the mean squared displacement (MSD) of atoms in the system. 
+For the long  time limit, MSD increased with time, and the proportionality constant was related to the self -diffusion 
+coefficient. 
+The refractive index RI (dimensionless) was obtained from the Lorentz–Lorenz equation as: 
+𝑅𝐼2 − 1
+𝑅𝐼2 + 2 = 4𝜋
+3
+𝜌
+𝑀 𝛼polar (14) 
+where αpolar is the isotropic dipole polarizability of the repeating unit, obtained from the DFT calculation, and M is the 
+molecular weight of the repeating unit. 
+The Abbe number 𝜐 (dimensionless), quantifying the dispersion of the refractive index, was calculated as: 
+
+=== PDF PAGE 57 ===
+36 
+ 
+𝜐 = 𝑅𝐼D − 1
+𝑅𝐼F − 𝑅𝐼C
+ (15) 
+where RID, RIF, and RIC represent the refractive indices at wavelengths D (589.3 nm), F (486.1 nm), and C (656.3 nm), 
+respectively. The refractive indices at each wavelength were obtained using the Lorentz –Lorenz equation , with the 
+wavelength-dependent isotropic dipole polarizability given to 𝛼polar. 
+The static dielectric constant ε(0) (dimensionless) was calculated as: 
+𝜀(0)=
+〈𝜇2〉 − 〈𝜇〉2
+3𝜀0 ∙ 𝑘𝐵 ∙ 𝑇 ∙ 〈𝑉〉 + 1 (16) 
+where μ is the total dipole moment of the system and ε0 is the vacuum permittivity. 
+The corrected static dielectric constant εcorr(0) (dimensionless) was calculated to include the contribution of electronic 
+polarisation as: 
+𝜀corr(0)=
+〈𝜇2〉 − 〈𝜇〉2
+3𝜀0 ∙ 𝑘𝐵 ∙ 𝑇 ∙ 〈𝑉〉 + 𝜀𝑒𝑙 (17) 
+where εel accounts for the contribution of the electronic polarisation to the dielectric constant, which was estimated from 
+the square of the refractive index RI2. 
+ 
+The nematic order parameter Sn (dimensionless) was calculated as the largest eigenvalue of the second -rank ordering 
+tensor Qαβ, defined as: 
+𝑄𝛼𝛽  =  1
+𝑁 ∑ 1
+2 (3𝑢i𝛼𝑢i𝛽
+T − 𝛿𝛼𝛽)
+𝑁
+i=1
+ (18) 
+where uiα and uiβ (α, β = x, y, or z) are the unit vectors of the molecular axis of the i-th repeating unit, δαβ is the matrix of 
+the Kronecker delta, and N is the number of repeating units. The molecular axis of each CRU was defined as the principal 
+axis corresponding to the largest moment of inertia obtained from the inertia tensor. The nematic order parameter was set 
+to a value between zero for an isotropic structure and one for a perfectly aligned, fully ordered structure. 
+The thermal conductivity κ (W⋅m−1⋅K−1) was calculated according to Fourier’s law as: 
+𝜅 =  𝐽𝑄
+(𝜕𝑇/𝜕𝑥)=  ∆𝐸
+2𝐴 ∙ ∆𝑡 ∙ (𝜕𝑇/𝜕𝑥) (19) 
+where JQ is the heat flux and ∂T/∂x is the temperature gradient obtained from the NEMD simulation. The heat flux was 
+calculated considering the exchanged energy (ΔE) using the Müller–Plathe algorithm, the cross -sectional area  (A) 
+perpendicular to the heat flux direction, and the simulation time interval (Δt). 
+The thermal diffusivity λ (m²⋅s-1) was obtained from the calculated  values of thermal conductivity (κ), density (ρ), and 
+heat capacity at constant pressure (CP) as: 
+𝜆 =  𝜅
+𝜌 ∙ 𝐶𝑃
+ (20) 
+The cohesive energy density  (CED, J⋅cm-3) of the polymer system was calculated from the potential energy per unit 
+volume as: 
+
+=== PDF PAGE 58 ===
+37 
+ 
+CED =  𝐸coh
+𝑉 = 𝐸tot − 𝐸intra
+𝑉  (21) 
+where 𝐸coh is the cohesive energy of the system, 𝐸tot is the total potential energy obtained from the MD simulation, and 
+𝐸intra is the intramolecular contribution (bond stretching, angle bending, and torsional potentials). 
+The Hansen solubility parameters (HSPs) (MPa¹ ᐟ²) decomposed the cohesive energy density into contributions from 
+dispersion (𝛿d), polar (𝛿p), and hydrogen-bonding (𝛿h) interactions, defined as: 
+𝛿d = √𝐸vdw
+𝑉 , 𝛿p = √𝐸p
+𝑉  , 𝛿h = √𝐸h
+𝑉  (22) 
+where 𝐸vdw  is the van der Waals (dispersion) contribution to the potential energy, 𝐸p  is the dipole interaction  
+contribution, and 𝐸h is the hydrogen bonding contribution. When the solubility parameters were calculated using the MD 
+simulations, the non -bonded interactions comprised van der Waals and electrostatic interactions. Accordingly, the 
+solubility parameter (MPa¹ᐟ²) comprised three components: 𝛿vdw arising from van der Waals interactions, 𝛿ele arising 
+from electrostatic interactions, and 𝛿total representing the combined contribution of both interactions. For this study, the 
+following correspondence was adopted with the Hansen solubility parameters: 
+𝛿d ≡ 𝛿vdw, √𝛿p
+2 + 𝛿h
+2 ≡  𝛿ele (23) 
+The free volume 𝑉free (Å³) represents the portion of the total system volume that is not occupied by polymer atoms . It 
+was calculated as: 
+𝑉free = 𝑉total− 𝑉occupaied (24) 
+where 𝑉total is the total simulation box volume and 𝑉occupaied is the van der Waals volume of all atoms  obtained from 
+the sum of the atomic vdW volumes considering overlaps. The fractional free volume  VFFV (dimensionless) was 
+calculated as the ratio of the free volume to the total volume, where 𝑉FFV =  𝑉free 𝑉total⁄ . 
+The tensile (Young’s) modulus 𝑌 (GPa) describes the resistance of the polymer to uniaxial deformation. In RadonPy’s 
+simulations, the value was estimated from the stress–strain relationship for small deformations as: 
+𝑌 = 𝜎
+𝜖 (25) 
+where 𝜎 is the stress along the deformation direction and  𝜖 is the applied strain. The tensile modulus was obtained by 
+applying a small deformation to the simulation box and calculating the stress resulting from the virial expression. 
+The Poisson ratio  𝜈  (dimensionless) quantified the transverse contraction relative to longitudinal extension under 
+uniaxial stress as: 
+𝜈 = − 𝜖𝑡
+𝜖𝑙
+ (26) 
+where 𝜖𝑡  is the resulting strain perpendicular to the loading direction  and 𝜖𝑙  is the applied strain along the loading 
+direction. 
+The bulk modulus Ktensile (GPa) was calculated using the tensile modulus (Y) and Poisson ratio (𝜈) as: 
+
+=== PDF PAGE 59 ===
+38 
+ 
+𝐾tensile = 𝑌
+3(1 − 2𝜈) (27) 
+The shear modulus Gtensile (GPa), representing the polymer’s resistance to shear deformation, was calculated from the 
+tensile modulus (Y) and Poisson ratio (𝜈) as 
+𝐺tensile = 𝑌
+2(1 + 𝜈) (28) 
+The Lamé constant (Λtensile) (GPa) was derived from the tensile modulus (Y) and Poisson ratio (𝜈) as: 
+𝛬tensile = 𝑌 ∙ 𝜈
+(1 + 𝜈)(1 − 2𝜈) (29) 
+The tensile viscosity 𝜂tensile (Pa·s), which quantifies the polymer’s resistance to elongational flow, was obtained from 
+tensile stretching simulations as: 
+𝜂tensile = 𝜎𝑧𝑧
+𝜖̇  (30) 
+where 𝜎𝑧𝑧 is the normal stress along the stretching direction and 𝜖̇ is the applied strain rate. 
+The speed of sound c (m⋅s-1) in the polymer was calculated using its bulk modulus (Ktensile), shear modulus (Gtensile), and 
+density as: 
+𝑐 = √𝐾tensile + 3
+4 𝐺tensile
+𝜌  (31) 
+The speed of sound, which provides information on acoustic propagation, can be used to infer mechanical stiffness. 
+The properties of the CRU were calculated using DFT, which provides electronic structure information and enables the 
+evaluation of molecular properties relevant to polymer design and material performance. The following properties were 
+evaluated in this study: 
+The molecular weight M (g⋅mol-1) of the CRU was calculated as the sum of the atomic masses of all atoms in the CRU 
+as: 
+𝑀 = ∑ 𝑚𝑖
+𝑖
+ (32) 
+where 𝑚𝑖 is the mass of atom i. 
+The van der Waals volume 𝑉vdw (Å³) was obtained from the sum of the atomic van der Waals radii 𝑉atom, considering 
+their overlap in the optimised molecular geometry, as: 
+𝑉vdw = ∑ 𝑉𝑖
+atom − overlap correction
+𝑖
+ (33) 
+The total electronic energy  𝐸etot  (hartree), highest occupied molecular orbital (HOMO)  (eV), and lowest 
+unoccupied molecular orbital (LUMO) (eV) energies of the CRU were obtained from the converged DFT calculations. 
+The dipole moment 𝜇 (debye) was calculated from the electronic charge distribution and nuclear positions as: 
+
+=== PDF PAGE 60 ===
+39 
+ 
+𝜇 = ∑ 𝑞𝑖 ∙ 𝒓𝑖
+𝑖
+ (34) 
+where 𝑞𝑖 is the partial charge of an atom and 𝒓𝑖 is its position vector. 
+The polarizability tensor 𝑎𝑖𝑗 (Å³) was obtained from the second derivative of the total energy with respect to an external 
+electric field E as: 
+𝑎𝑖𝑗 = −
+𝜕2𝐸etot
+𝜕𝐸𝑖 ∙ 𝜕𝐸𝑗
+ (35) 
+The isotropic polarizability 𝑎 (Å³) was set as: 
+𝑎 = 1
+3 (𝑎𝑥𝑥 + 𝑎𝑦𝑦 + 𝑎𝑧𝑧) (36) 
+Polarizability was calculated at D (589.3 nm), F (486.1 nm), and C (656.3 nm) spectral lines to evaluate the wavelength -
+dependent refractive indices and Abbe numbers. Typically, wavelength-dependent polarizability is calculated using the 
+coupled-perturbed Hartree–Fock method; however, it is not implemented for the DFT calculations in Psi4. Therefore, in 
+this study, the wavelength -dependent polarizability aij(ω) at frequency (ω) was calculated using the sum -over-states 
+approach as: 
+𝑎𝑖𝑗(𝜔)= 2 ∑ (
+𝜇𝑖
+𝑔𝑘𝜇𝑗
+𝑘𝑔
+ℏ𝜔𝑔𝑘 − (ℏ𝜔)2/(ℏ𝜔𝑔𝑘))
+𝑘
+ (37) 
+where 𝜇𝑖
+𝑔𝑘 is the transition dipole moment for the i-axis (𝑖 ∈  {𝑥, 𝑦, 𝑧}) from the ground state (g) to the k-th excited state, 
+ℏ𝜔𝑔𝑘 is the excitation energy from the ground state to the k-th excited state, and ℏ is the reduced Planck’s constant. TD-
+DFT calculations were performed to determine wavelength -dependent polarizability. In RadonPy, Psi4 is used as the 
+quantum chemistry calculation engine. As TD-DFT calculations are not supported for the ωB97M-D3BJ functional in 
+Psi4, the CAM-B3LYP, a GGA functional incorporating important long-range corrections, was employed to calculate the 
+excited states. The 6-311+G(2d,p) basis set was used for H, C, N, O, F, P, S, and Cl; the 6-311G(d,p) was used for Br, and 
+the LanL2DZ basis set was used for I, respectively. 
+  
+1.11  NEMD Simulations for Thermal Conductivity Calculation 
+To evaluate the thermal conductivity, we performed reverse NEMD simulations , as proposed by Müller–-Plathe28. The 
+simulation box was constructed in triplicate using an equilibrated amorphous cell along the x-axis under periodic boundary 
+conditions (PBC). 
+In the reverse NEMD scheme, the simulation box was divided into 𝑁 slabs along the direction of heat flux. The heat flux 
+was generated by periodically exchanging the velocities of the coldest atom in slab 𝑁/2 and the hottest atom in slab 0. 
+This procedure effectively generated slab 𝑁/2 as the hottest region, while the temperature gradually decreased toward 
+slabs 0 and 𝑁-1 due to the PBC. 
+To prevent artificial temperature shifts arising from cell replication, a preheating step using the NVT ensemble was 
+performed for 2 ps at 300 K. Subsequently, a reverse NEMD simulation was conducted using the NVE ensemble for 1 ns. 
+The simulation parameters were set as : the box was divided into 20 slabs, the velocity exchange frequency was 200 fs, 
+and the time step was 0.2 fs. SHAKE constraints were not applied. 
+Non-bonded interactions were treated using the twin -range cutoff method with short  and long-range cutoffs of 8 and 12 
+Å, respectively. Long-range Coulomb interactions were computed using the PPPM method. RadonPy was used to validate 
+the simulation and confirm the linearity of the resulting temperature gradient. Any simulation exhibiting poor linearity 
+(𝑅2 < 0.95) was considered unreliable and excluded from the analysis. 
+1.12  Calculation of Frequency-Dependent Dielectric Properties 
+
+=== PDF PAGE 61 ===
+40 
+ 
+The dynamic dielectric constant ( 𝜀′ ) and loss tangent ( tan𝛿 ) were calculated using MD simulations under the NPT 
+ensemble at 1 atm. The system was equilibrated at the target temperature and density prior to applying external fields. 
+To induce polarisation, an external time -dependent AC electric field  𝐸(𝑡)= 𝐸0 sin(𝜔𝑡) was applied to the simulation 
+cell. The polarisation 𝑃(𝑡) was defined as 
+𝑃(𝑡)= 𝜇(𝑡)
+𝑉  (38) 
+where 𝜇(𝑡) is the total dipole moment of the system and V is the MD cell volume. An electric field was applied along 
+the x, y, and z directions, and the corresponding force  𝐹 = 𝑞𝐸(𝑡) was applied to each atom according to its charge q. 
+The field amplitude was maintained sufficiently low to avoid non-linear polarisation effects, and the frequency was varied 
+from 10 to 500 GHz to probe the frequency-dependent dielectric behaviour. An AC electric field was implemented using 
+the efield command in LAMMPS. 
+Simulations were performed under the NPT ensemble using a Nosé–Hoover thermostat and barostat to control the 
+temperature and pressure. Each simulation was performed for a sufficiently long duration to capture at least one full period 
+of the applied electric field, ensuring that a steady-state polari sation response was obtained. To improve statistical 
+reliability, simulations were repeated for five independent initial configurations, and the results were averaged. 
+The time-dependent electric displacement 𝐷(𝑡) was calculated as: 
+𝐷(𝑡)= 𝜀0 ∙ 𝐸(𝑡)+ 𝑃(𝑡) (39) 
+where 𝜀0 is the permittivity of free space. The phase difference (𝛿) between 𝐷(𝑡) and 𝐸(𝑡) was determined by fitting 
+the temporal data. 
+The real part of the dielectric constant (𝜀′) and the loss tangent (tan𝛿) were calculated as: 
+𝜀′ = 1 + 𝑃𝑜
+𝜀0 ∙ 𝐸0
+cos𝛿 + 𝑃𝑒
+𝜀0 ∙ 𝐸 (40) 
+tan𝛿 = 𝑃𝑜
+𝜀0 ∙ 𝐸0
+sin𝛿 × 1
+𝜀′ (41) 
+where 𝛿  represents the phase lag between the applied field and the induced electric displacement, corresponding to 
+energy dissipation. The adopted methodology enables the quantification of frequency-dependent dielectric properties and 
+the correlation of the molecular structure and dipole orientation with the macroscopic dielectric response.  
+1.13  Thermal conductivity calculation of stretched polymer materials 
+The thermal conductivit ies of the oriented polymer systems were evaluated using MD simulations. To investigate the 
+effect of chain alignment induced by uniaxial stretching, amorphous polymer cells were subjected to controlled elongation 
+along the x-axis and subsequently equilibrated under PBC. 
+The initial amorphous polymer structures were equilibrated in the NPT ensemble at 1 atm and 300 K to achieve realistic 
+densities and thermal equilibri a. Uniaxial stretching was applied along the x-axis at a constant velocity of 25 m/s and 
+strain of 0.5 and 1.0. After stretching, the system was equilibrated for 500 ps under NPT conditions, allowing the lateral 
+dimensions (y and z) to relax, while maintaining the stretched x-axis length. This step ensured mechanical and thermal 
+equilibration of the oriented polymer structure. The thermal conductivities along the oriented (x) and transverse (y and z) 
+directions were calculated using the reverse NEMD method. 
+The relationship between the degree of orientation order and thermal conductivity at strains of 0, 0.5, and 1.0 , for 1379 
+polymers, was calculated. The polymers were distributed in the range of 0 to 0.6 in orientation order and 0.2 to 2.5 W m-
+1 K-1 in thermal conductivity. For each polymer class, Fig ure 3d illustrates the correlation between the average  thermal 
+conductivity and average degree of orientation order for each strain. A comparison within the same polymer class revealed 
+that the thermal conductivity tended to increase as the degree of orientation order increase d. Conversely, the presence of 
+
+=== PDF PAGE 62 ===
+41 
+ 
+polymers with high thermal conductivities ranging from 1.5 to 2.0 W m -1 K-1 was observed, even when the degree of 
+orientation order was less than 0.2. The correlation between the degree of orientation order and thermal conductivity 
+defined the characteristic of each polymer class. In particular, polysulfides, polyphenylenes, and polyimines exhibit ed 
+high thermal conductivit ies at a strain of 1.0. Contrarily, polyacrylates, polyphosphazenes, and polystyrenes exhibited 
+minimal change in their thermal conductivity after stretching. 
+Polymers with rigid main chains containing multiple bonds and aromatic rings exhibited high thermal conductivity owing 
+to their orientation. Conversely, polymers with large side chains demonstrate d minimal improvement in thermal 
+conductivity even when their orientation order was increased. 
+2 Polymer Generators 
+The polymer library comprising the majority of the PolyOmics database was primarily constructed using two virtual 
+polymer generators. The first was a chemical language model  trained to replicate the structural patterns of previously 
+synthesised polymers. The second was SMiPoly, a rule-based in silico model that simulated polymerisation reactions. The 
+following sections provide an overview of each model. 
+2.3 Chemical language models 
+Ikebata et al.29 introduced a molecular structure generator based on a probabilistic language model, known as an extended 
+n-gram. In this approach, the chemical structure 𝑋 of each compound in the training dataset is represented using SMILES 
+notation, where 𝑋 is expressed as a string of length p: 
+𝑋 = 𝑥1𝑥2 ⋯ 𝑥𝑝 (41) 
+By leveraging the set of SMILES strings corresponding to the molecules synthesised to date, an n-gram language model 
+is trained to construct a structure generator that capture s and reproduces the characteristic patterns observed in existing 
+molecules, including frequent fragments and chemically valid bonding rules.  
+In this framework, the probability of generating a given SMILES string, denoted by 𝑝(𝑋), can be factorised as the product 
+of the conditional probabilities according to the n-gram approximation as: 
+𝑝(𝑋)∝ 𝑝(𝑥1)∏ 𝑝(𝑥i|𝑥i−1, ⋯ , 𝑥1,)
+𝑝
+𝑖=2
+ (42) 
+where 𝑝(𝑥i|𝑥i−1, ⋯ , 𝑥1,) represents the conditional probability of the i-th token given the preceding i-1 tokens. This 
+formulation enables the generator to produce chemically plausible structures probabilistically by learning the sequential 
+dependencies inherent in the existing molecular SMILES strings. 
+The s ynthetic polymers registered in PoLyInfo were classified into 20 distinct classes (Table S2), and class -specific 
+training datasets were constructed. These datasets were used with the XenonPy software to train a class-specific generator 
+for each polymer class. The resulting models were used to construct a virtual library of 1,778,039 polymers  covering a 
+broad chemical space. This library was shared within the consortium, enabling the members to generate property datasets 
+collaboratively in a distributed manner. To date, computations have only been performed on a subset of the entire library. 
+2.4 SMiPoly: Polymer Generator based on Rule-Based Polymerisation Reactions 
+SMiPoly, an open-source Python library, was used for rule-based virtual generation of synthetically accessible polymers. 
+SMiPoly encode  a comprehensive set of 22 chemical reaction rules commonly used in polymer synthesis, enabling 
+systematic in silico simulation of polymerisation processes. 
+The workflow consists of two key modules—monc.py and polg.py: 
+• monc.py classifies the small molecules into monomer classes based on their reactive functional groups.  
+• Appropriate polymerisation rules are applied to these monomers to generate the corresponding polymer repeating 
+units. 
+For this study, 1,083 commercially available monomers were processed using SMiPoly, yielding 169,347 unique linear 
+polymers across seven polymer classes (polyolefins, polyesters, polyethers, polyamides, polyimides, polyurethanes, and 
+polyoxazolidones). These virtual polymers are theoretically synthesizable under practical chemical conditions. To date, 
+computations have only been performed on a subset of the entire library.  
+
+=== PDF PAGE 63 ===
+42 
+ 
+3. Machine Learning Prediction for Polymer–Solvent Miscibility in PolyOmics 
+Aoki et al. 30 constructed a machine learning model to predict the Flory –Huggins interaction parameter, known as the χ 
+parameter, which quantifies polymer–solvent interactions and governs the Gibbs free energy of mixing according to the 
+Flory–Huggins theory. 
+For model training, three datasets were prepared: 
+1. Experimental χ dataset: 
+Experimental χ parameters were collected from literature for 1,190 polymer–solvent pairs, consisting of 46 polymers 
+and 140 solvents. This dataset include d measurements at various temperatures and polymer –solvent compositions. 
+However, owing to experimental limitations, the data were biased toward miscible pairs and covered a limited region 
+of the chemical space. 
+2. Computational χ dataset 
+To overcome data scarcity, a computational χ parameter dataset was generated using high -throughput quantum 
+chemical calculations based on the COSMO -RS method 31,32. This dataset comprise d 9,129 polymer –solvent pairs 
+covering a substantially broader chemical space. 
+3. Solubility classification dataset: 
+A binary dataset of 429 polymer–solvent pairs was prepared, with each pair labelled as either miscible (good solvent) 
+or immiscible (poor solvent). 
+A multitask deep neural network was developed to predict the experimental χ parameter as the main task, while 
+simultaneously learning two auxiliary tasks: the prediction of computationally calculated χ values and the binary 
+classification of polymer–solvent miscibility. The input variable is a polymer–solvent pair with its chemical structure, in 
+which the compositional, structural, and physicochemical features of the polymer and solvent are encoded into a 397-
+dimensional descriptor vector using the 190 -dimensional force-field kernel mean descriptor from RadonPy and a 207-
+dimensional descriptor from the Python library RDKit , respectively . The model output comprises three prediction 
+branches corresponding to each task. During training, the losses from all three tasks were combined and optimi sed 
+collectively to obtain a unified representation of the polymer–solvent interactions.  This multitask learning approach 
+enabled the model to leverage relationships among the three related tasks , thereby compensating for the limited size and 
+systematic biases present in the experimental χ parameter dataset.   
+Aoki et al. (2023)30 systematically evaluated the predictive model performance using experimental test data for the main 
+task and compared it with two baseline methods: COSMO-RS quantum chemical calculations and an empirical Hansen 
+solubility parameter (HSP) -based method. The proposed model significantly outperformed both baseline approaches, 
+demonstrating its ability to predict χ parameters for both miscible and immiscible systems and generali se beyond the 
+scratch learning using only the biased experimental dataset. 
+Each polymer registered in the PolyOmics database was annotated with machine -learning predicted χ parameter values 
+for 19 organic solvents and plasticisers commonly used in synthetic processes. These values serve as criteria for selecting 
+candidate solvents and plasticisers for the synthesis of virtual polymers. 
+ 
+ 
+ 
+  
+
+=== PDF PAGE 64 ===
+43 
+ 
+References 
+1. Ishii, M., Ito, T., Sado, H. & Kuwajima, I. NIMS polymer database PoLyInfo (I): An overarching view of half a million 
+data points. Sci. Technol. Adv. Mater. Methods 4, 2354649 (2024). 
+2. Ishii, M., Ito, T. & Sakamoto, K. NIMS polymer database PoLyInfo (II): Machine-readable standardization of polymer 
+knowledge expression. Sci. Technol. Adv. Mater. Methods 4, 2354651 (2024). 
+3. Ma, R. & Luo, T. PI1M: A benchmark database for polymer informatics. J. Chem. Inf. Model. 60, 4684–4690 (2020). 
+4. Shetty, P. et al. A general-purpose material property data extraction pipeline from large polymer corpora using natural 
+language processing. npj Comput. Mater. 9, 52 (2023). 
+5. Ramprasad, R. polyVERSE: Informatics-ready polymer datasets (Version 1.0). Zenodo doi:10.5281/zenodo.13352644. 
+6. Kim, S., Schroeder, C. M. & Jackson, N. E. Open macromolecular genome : Generative design of synthetically 
+accessible polymers. ACS Polym. Au 3, 318–330 (2023). 
+7. Ohno, M., Hayashi, Y., Zhang, Q., Kaneko, Y. & Yoshida, R. SMiPoly: Generation of a synthesizable polymer virtual 
+library using rule-based polymerization reactions. J. Chem. Inf. Model. 63, 5539–5548 (2023). 
+8. Kuenneth, C. & Ramprasad, R. polyOne Data Set - 100 million hypothetical polymers including 29 properties. Zenodo 
+(2022) doi:10.5281/zenodo.7124187. 
+9. Hayashi, Y., Shiomi, J., Morikawa, J. & Yoshida, R. RadonPy: Automated physical property calculation using all-atom 
+classical molecular dynamics simulations for polymer informatics. NPJ Comput. Mater. 8, 222 (2022). 
+10. Fransen, K. A. et al. High-throughput experimentation for discovery of biodegradable polyesters. Proc. Natl. Acad. 
+Sci. 120, e2220021120 (2023). 
+11. Wang, S., Witek, J., Landrum, G. A. & Riniker, S. Improving conformer generation for small rings and macrocycles 
+based on distance geometry and experimental torsional-angle preferences. J. Chem. Inf. Model. 60, 2044–2058 (2020). 
+12. Riniker, S. & Landrum, G. A. Better informed distance geometry: Using what we know to improve conformation 
+generation. J. Chem. Inf. Model. 55, 2562–2574 (2015). 
+13. Hawkins, P. C. D. Conformation generation: The state of the art. J. Chem. Inf. Model. 57, 1747–1756 (2017). 
+14. Caleman, C. et al. Force field benchmark of organic liquids: density, enthalpy of vaporization, heat capacities, surface 
+tension, isothermal compressibility, volumetric expansion coefficient, and dielectric constant. J. Chem. Theory Comput. 
+8, 61–74 (2012). 
+15. Mardirossian, N. & Head -Gordon, M. ωB97M-V: A combinatorially optimized, range-separated hybrid, meta-GGA 
+density functional with VV10 nonlocal correlation. J. Chem. Phys. 144, 214110 (2016). 
+16. Grimme, S., Ehrlich, S. & Goerigk, L. Effect of the damping function in dispersion corrected density functional theory. 
+J. Comput. Chem. 32, 1456–1465 (2011). 
+17. Ditchfield, R., Hehre, W. J. & Pople, J. A. Self-consistent molecular-orbital methods. IX. An extended Gaussian-type 
+basis for molecular-orbital studies of organic molecules. J. Chem. Phys. 54, 724–728 (1971). 
+18. Francl, M. M. et al. Self-consistent molecular orbital methods. XXIII. A polarization -type basis set for second -row 
+elements. J. Chem. Phys. 77, 3654–3665 (1982). 
+19. Roothaan, C. C. J. New developments in molecular orbital theory. Rev. Mod. Phys. 23, 69–89 (1951). 
+20. Krishnan, R., Binkley, J. S., Seeger, R. & Pople, J. A. Self -consistent molecular orbital methods. XX. A basis set for 
+correlated wave functions. J. Chem. Phys. 72, 650–654 (1980). 
+
+=== PDF PAGE 65 ===
+44 
+ 
+21. McLean, A. D. & Chandler, G. S. Contracted Gaussian basis sets for molecular calculations. I. Second row atoms, Z 
+=11–18. J. Chem. Phys. 72, 5639–5648 (1980). 
+22. Binning, R. C. & Curtiss, L. A. Compact contracted basis sets for third‐row atoms: Ga –Kr. J. Comput. Chem.  11, 
+1206–1216 (1990). 
+23. Wadt, W. R. & Hay, P. J. Ab initio effective core potentials for molecular calculations. Potentials for main group 
+elements Na to Bi. J. Chem. Phys. 82, 284–298 (1985). 
+24. Clark, T., Chandrasekhar, J., Spitznagel, G. W. & Schleyer, P. V. R. Efficient diffuse function‐augmented basis sets 
+for anion calculations. III. The 3‐21+G basis set for first‐row elements, Li–F. J. Comput. Chem. 4, 294–301 (1983). 
+25. Frisch, M. J., Pople, J. A. & Binkley, J. S. Self-consistent molecular orbital methods 25. Supplementary functions for 
+Gaussian basis sets. J. Chem. Phys. 80, 3265–3269 (1984). 
+26. Ando, S. Efficient hybrid functional and basis set functions for DFT calculation of refractive indices and Abbe 
+numbers of organic compounds. Chem. Lett. 47, 1494–1497 (2018). 
+27. Ryckaert, J. -P., Ciccotti, G. & Berendsen, H. J. C. Numerical integration of the cartesian equations of motion of a 
+system with constraints: molecular dynamics of n-alkanes. J. Comput. Phys. 23, 327–341 (1977). 
+28. Müller-Plathe, F. A simple nonequilibrium molecular dynamics method for calculating the thermal conductivity. J. 
+Chem. Phys. 106, 6082–6085 (1998). 
+29. Ikebata, H., Hongo, K., Isomura, T., Maezono, R. & Yoshida, R. Bayesian molecular design with a chemical language 
+model. J. Comput.-Aided Mol. Des. 31, 379–391 (2017). 
+30. Aoki, Y. et al. Multitask machine learning to predict polymer –solvent miscibility using Flory –Huggins interaction 
+parameters. Macromolecules 56, 5446–5456 (2023). 
+31. Klamt, A. COSMO-RS From Quantum Chemistry to Fluid Phase Thermodynamics and Drug Design . (Elsevier 
+Science). 
+32. Loschen, C. & Klamt, A. Prediction of Solubilities and Partition Coefficients in Polymers Using COSMO -RS. Ind. 
+Eng. Chem. Res. 53, 11478–11487 (2014). 
+  
+  

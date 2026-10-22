@@ -1,0 +1,108 @@
+{
+  "rdkit_version": "2026.09.1",
+  "passed": 13,
+  "results": [
+    {
+      "name": "succinimide",
+      "smiles": "O=C1CCC(=O)N1",
+      "canonical": "O=C1CCC(=O)N1",
+      "oxygen_imide": true,
+      "sulfur_allowed_imide": true,
+      "rdkit_builtin_fr_imide": 1
+    },
+    {
+      "name": "N-methylphthalimide",
+      "smiles": "CN1C(=O)c2ccccc2C1=O",
+      "canonical": "CN1C(=O)c2ccccc2C1=O",
+      "oxygen_imide": true,
+      "sulfur_allowed_imide": true,
+      "rdkit_builtin_fr_imide": 1
+    },
+    {
+      "name": "diacetamide",
+      "smiles": "CC(=O)NC(C)=O",
+      "canonical": "CC(=O)NC(C)=O",
+      "oxygen_imide": true,
+      "sulfur_allowed_imide": true,
+      "rdkit_builtin_fr_imide": 1
+    },
+    {
+      "name": "amide",
+      "smiles": "CC(=O)NC",
+      "canonical": "CNC(C)=O",
+      "oxygen_imide": false,
+      "sulfur_allowed_imide": false,
+      "rdkit_builtin_fr_imide": 0
+    },
+    {
+      "name": "urea",
+      "smiles": "NC(=O)N",
+      "canonical": "NC(N)=O",
+      "oxygen_imide": false,
+      "sulfur_allowed_imide": false,
+      "rdkit_builtin_fr_imide": 0
+    },
+    {
+      "name": "anhydride",
+      "smiles": "CC(=O)OC(C)=O",
+      "canonical": "CC(=O)OC(C)=O",
+      "oxygen_imide": false,
+      "sulfur_allowed_imide": false,
+      "rdkit_builtin_fr_imide": 0
+    },
+    {
+      "name": "imidazole",
+      "smiles": "c1ncc[nH]1",
+      "canonical": "c1c[nH]cn1",
+      "oxygen_imide": false,
+      "sulfur_allowed_imide": false,
+      "rdkit_builtin_fr_imide": 0
+    },
+    {
+      "name": "thioimide",
+      "smiles": "CC(=S)NC(C)=S",
+      "canonical": "CC(=S)NC(C)=S",
+      "oxygen_imide": false,
+      "sulfur_allowed_imide": true,
+      "rdkit_builtin_fr_imide": 0
+    },
+    {
+      "name": "acylurea",
+      "smiles": "CC(=O)NC(=O)N",
+      "canonical": "CC(=O)NC(N)=O",
+      "oxygen_imide": true,
+      "sulfur_allowed_imide": true,
+      "rdkit_builtin_fr_imide": 1
+    },
+    {
+      "name": "boundary_raw",
+      "smiles": "*N(C)C(=O)CC(=O)*",
+      "canonical": "*C(=O)CC(=O)N(*)C",
+      "oxygen_imide": false,
+      "sulfur_allowed_imide": false,
+      "rdkit_builtin_fr_imide": 0
+    },
+    {
+      "name": "pendant_imide_polymer",
+      "smiles": "*CC(*)N1C(=O)CCC1=O",
+      "canonical": "*CC(*)N1C(=O)CCC1=O",
+      "oxygen_imide": true,
+      "sulfur_allowed_imide": true,
+      "rdkit_builtin_fr_imide": 1
+    },
+    {
+      "name": "aromatic_uracil_representation",
+      "smiles": "O=c1cc[nH]c(=O)[nH]1",
+      "canonical": "O=c1cc[nH]c(=O)[nH]1",
+      "oxygen_imide": true,
+      "sulfur_allowed_imide": true,
+      "rdkit_builtin_fr_imide": 0
+    },
+    {
+      "name": "boundary_linear_trimer",
+      "canonical": "*C(=O)CC(=O)N(C)C(=O)CC(=O)N(C)C(=O)CC(=O)N(*)C",
+      "oxygen_imide": true,
+      "unique_imide_centres": 2
+    }
+  ]
+}

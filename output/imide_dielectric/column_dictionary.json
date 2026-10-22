@@ -1,0 +1,2394 @@
+[
+  {
+    "column": "UUID",
+    "origin": "source_unchanged",
+    "description": "Database ID (UUID)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "monomer_ID",
+    "origin": "source_unchanged",
+    "description": "Structure ID of the repeating unit. A unique ID is assigned to each unique chemical structure. If the polymer contains multiple repeating units, such as in a copolymer, multiple IDs are listed as comma-separated values",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "smiles_list",
+    "origin": "source_unchanged",
+    "description": "SMILES of the repeating unit. If the polymer contains multiple repeating units, such as in a copolymer, multiple SMILES strings are listed as comma-separated values",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "smiles_1",
+    "origin": "source_unchanged",
+    "description": "SMILES of the first repeating unit, corresponding to the order in `monomer_ID` or `smiles_list`. Columns such as `smiles_2` indicate properties of the second repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "smiles_search",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "class_PIMD",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "polymer_class",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "source_row_number",
+    "origin": "derived_or_audit",
+    "description": "헤더 제외 1-based 원본 레코드 순번",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "is_polymer_record",
+    "origin": "derived_or_audit",
+    "description": "DP>1이고 실제 smiles_list에 반복 연결점이 있음",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "rdkit_imide",
+    "origin": "derived_or_audit",
+    "description": "산소 imide 모티프 독립 RDKit 판정",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "imide_detection_basis",
+    "origin": "derived_or_audit",
+    "description": "repeat_unit 직접 검출 / linear_trimer_boundary 반복 경계 검출",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "imide_component_indices",
+    "origin": "derived_or_audit",
+    "description": "모티프가 검출된 1-based 성분 번호; 세미콜론 구분",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "imide_direct_n_count",
+    "origin": "derived_or_audit",
+    "description": "성분별 원래 반복단위에 직접 매칭되는 N 개수의 합; 조성 가중값 아님",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "has_small_cyclic_imide",
+    "origin": "derived_or_audit",
+    "description": "8원 이하 실제 고리에 N과 두 carbonyl C가 함께 있는 imide 모티프",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "has_conventional_carboximide",
+    "origin": "derived_or_audit",
+    "description": "두 carbonyl의 반대쪽 치환기가 C/H인 모티프를 적어도 하나 포함",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "has_os_imide_motif",
+    "origin": "derived_or_audit",
+    "description": "RadonPy처럼 carbonyl O/S를 모두 허용한 넓은 모티프",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "rdkit_official_fr_imide_direct",
+    "origin": "derived_or_audit",
+    "description": "공식 RDKit fr_imide 패턴의 원래 성분 직접 매칭; aromatic/경계 제한 있음",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "smiles_parse_status",
+    "origin": "derived_or_audit",
+    "description": "포함 성분 SMILES의 RDKit sanitize 파싱 상태",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "class_PIMD_agrees",
+    "origin": "derived_or_audit",
+    "description": "원본 class_PIMD와 새 산소 imide 모티프 여부의 일치",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "canonical_smiles_1",
+    "origin": "derived_or_audit",
+    "description": "첫 번째 반복단위의 RDKit canonical SMILES; 다성분 전체 구조 식별자 아님",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "imide_match_atom_indices_json",
+    "origin": "derived_or_audit",
+    "description": "원본 성분의 0-based RDKit 원자 매칭 index. 경계만 검출 시 직접 목록은 빈 배열",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "imide_rule_version",
+    "origin": "derived_or_audit",
+    "description": "프로젝트 구조 분류 규칙 버전",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "rdkit_screen_version",
+    "origin": "derived_or_audit",
+    "description": "실제 분류에 사용한 RDKit 버전",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "has_dynamic_dielectric_data",
+    "origin": "derived_or_audit",
+    "description": "원본 동적 세 열 모두 숫자로 존재",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "frequency_GHz_inferred",
+    "origin": "derived_or_audit",
+    "description": "문헌 Fig3c, 1084행 및 코드 기본값에서 추정한 주파수; 행별 직접 검증 아님",
+    "unit": "GHz",
+    "nonempty_imide_rows": 59,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "frequency_verified_per_row",
+    "origin": "derived_or_audit",
+    "description": "원시 동적 파일에서 각 행의 주파수 직접 검증 여부; 모두 False",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "frequency_assignment",
+    "origin": "derived_or_audit",
+    "description": "주파수 추정 근거 또는 동적 데이터 결측",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "data_origin",
+    "origin": "derived_or_audit",
+    "description": "PolyOmics 계산값; 실험값 아님",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "permittivity_unit",
+    "origin": "derived_or_audit",
+    "description": "유전율이 상대유전율임을 표시; F/m 아님",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "epsilon_imag_derived_real_times_tan",
+    "origin": "derived_or_audit",
+    "description": "보고된 real*tan 집계값으로 유도한 허수부; 원시 반복 평균 복원 아님",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 59,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "derived_imaginary_method",
+    "origin": "derived_or_audit",
+    "description": "허수부 유도 방법과 집계 한계",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 59,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "raw_imaginary_definition_inconsistent",
+    "origin": "derived_or_audit",
+    "description": "원본 imaginary가 real*tan과 불일치. 동적 값 결측 시 False=미평가",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "raw_imaginary_matches_real_div_tan",
+    "origin": "derived_or_audit",
+    "description": "원본 imaginary가 real/tan과 일치. 동적 값 결측 시 False=미평가",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "dynamic_nonpositive_real",
+    "origin": "derived_or_audit",
+    "description": "동적 값이 존재하며 real<=0",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "dynamic_negative_loss_tan",
+    "origin": "derived_or_audit",
+    "description": "동적 값이 존재하며 tan<0",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "dynamic_basic_value_checks_pass",
+    "origin": "derived_or_audit",
+    "description": "동적 값 존재, real>0, tan>=0. 적합 정확도/주파수 검증은 아님",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "equilibration_flag_pass",
+    "origin": "derived_or_audit",
+    "description": "원본 check_eq가 True; 동적 적합 품질과 구분",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "epsilon_electronic_proxy_n2",
+    "origin": "derived_or_audit",
+    "description": "굴절률 제곱의 전자분극 근사. 전체 10GHz 유전율 아님",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 14773,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "epsilon_static_corrected_derived",
+    "origin": "derived_or_audit",
+    "description": "static_dielectric_const+refractive_index^2-1로 유도",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 14773,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "epsilon_static_correction_residual",
+    "origin": "derived_or_audit",
+    "description": "원본 dielectric_const_dc - 유도 보정 정적값",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 14773,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "static_identity_within_rtol_1e_4",
+    "origin": "derived_or_audit",
+    "description": "정적 보정 관계 rtol=1e-4, atol=1e-6 일치 여부. 입력 결측 False=미평가",
+    "unit": "boolean",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "structure_scope",
+    "origin": "derived_or_audit",
+    "description": "conventional carboximide motif 있음 / broad imide-like만 존재",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "dynamic_qc_note",
+    "origin": "derived_or_audit",
+    "description": "허수부 불일치, 주파수 추정, EFDP 적합 정보 결측 등",
+    "unit": "metadata_or_count",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "efdp_permittivity_real",
+    "origin": "source_unchanged",
+    "description": "원본 보고 동적 상대유전율 실수부. 추가 전자분극 보정 적용하지 않음",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 59,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "efdp_permittivity_imaginary",
+    "origin": "source_unchanged",
+    "description": "원본 보고 허수부 열. 모든 존재값이 real/tan으로 정의에 불일치. 직접 사용 부적절",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 59,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "efdp_dielectric_loss_tan",
+    "origin": "source_unchanged",
+    "description": "원본 보고 손실탄젠트 tan(delta)",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 59,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "static_dielectric_const",
+    "origin": "source_unchanged",
+    "description": "고정 전하 MD 쌍극자 요동 기반 정적 상대유전율. 전자분극 보정 전",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "dielectric_const_dc",
+    "origin": "source_unchanged",
+    "description": "static_dielectric_const + refractive_index^2 - 1의 전자분극 보정 정적 상대유전율",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 14773,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "refractive_index",
+    "origin": "source_unchanged",
+    "description": "Refractive index",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 14773,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "temp",
+    "origin": "source_unchanged",
+    "description": "Input setting for the MD simulation temperature (K)",
+    "unit": "K",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "press",
+    "origin": "source_unchanged",
+    "description": "Input setting for the MD simulation pressure (atm)",
+    "unit": "atm",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "check_eq",
+    "origin": "source_unchanged",
+    "description": "`True` if the system was judged to have reached equilibrium",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "density",
+    "origin": "source_unchanged",
+    "description": "Density (unit: g/cm^3)",
+    "unit": "g/cm^3",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "DP",
+    "origin": "source_unchanged",
+    "description": "Degree of polymerization",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "ter_ID_1",
+    "origin": "source_unchanged",
+    "description": "Structure ID of the terminal group on the head side. If `ter_ID_2` is not specified, the same terminal group as `ter_ID_1` is also used on the tail side",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 10151,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "ter_ID_2",
+    "origin": "source_unchanged",
+    "description": "Structure ID of the terminal group on the tail side",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "smiles_ter_1",
+    "origin": "source_unchanged",
+    "description": "SMILES of the terminal group on the head side. If `smiles_ter_2` is not specified, the same terminal group as `smiles_ter_1` is also used on the tail side",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 10151,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "smiles_ter_2",
+    "origin": "source_unchanged",
+    "description": "SMILES of the terminal group on the tail side",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_method",
+    "origin": "source_unchanged",
+    "description": "Quantum chemical calculation method used",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14806,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "charge",
+    "origin": "source_unchanged",
+    "description": "Charge model used for charge calculation",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "copoly_ratio_list",
+    "origin": "source_unchanged",
+    "description": "Composition ratio of repeating units in the copolymer",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "copoly_type",
+    "origin": "source_unchanged",
+    "description": "Copolymerization type of the copolymer: random copolymerization: `random`; alternating copolymerization: `alternating`; block copolymerization: `block`",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "input_natom",
+    "origin": "source_unchanged",
+    "description": "Input setting for the number of atoms in one polymer chain",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "input_nchain",
+    "origin": "source_unchanged",
+    "description": "Input setting for the number of polymer chains in the simulation cell",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "ini_density",
+    "origin": "source_unchanged",
+    "description": "Input setting for the density of the initial structure",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "input_tacticity",
+    "origin": "source_unchanged",
+    "description": "Input setting for tacticity",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14845,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tacticity",
+    "origin": "source_unchanged",
+    "description": "Tacticity of the polymer chain actually generated",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14847,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "remarks",
+    "origin": "source_unchanged",
+    "description": "Remarks, error messages, etc.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 1769,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Python_ver",
+    "origin": "source_unchanged",
+    "description": "Python version in the execution environment",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14903,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "RadonPy_ver",
+    "origin": "source_unchanged",
+    "description": "RadonPy version in the execution environment",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "RDKit_ver",
+    "origin": "source_unchanged",
+    "description": "RDKit version in the execution environment",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 13829,
+    "nonempty_dynamic_rows": 57
+  },
+  {
+    "column": "Psi4_ver",
+    "origin": "source_unchanged",
+    "description": "Psi4 version in the execution environment",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 13829,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "LAMMPS_ver",
+    "origin": "source_unchanged",
+    "description": "LAMMPS version in the execution environment",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "preset_eq_ver",
+    "origin": "source_unchanged",
+    "description": "Version of the equilibration preset used",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "preset_tc_ver",
+    "origin": "source_unchanged",
+    "description": "Version of the thermal conductivity calculation preset used",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12984,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "check_tc",
+    "origin": "source_unchanged",
+    "description": "`True` if the validity check for the thermal conductivity calculation was passed",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "do_TC",
+    "origin": "source_unchanged",
+    "description": "`True` if the thermal conductivity calculation is allowed to be performed",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14806,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "monomer_ID_1",
+    "origin": "source_unchanged",
+    "description": "Structure ID of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14806,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "copoly_ratio_1",
+    "origin": "source_unchanged",
+    "description": "Composition ratio of the first repeating unit in the copolymer",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "qm_method_monomer1",
+    "origin": "source_unchanged",
+    "description": "QM calculation method for the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14806,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "charge_monomer1",
+    "origin": "source_unchanged",
+    "description": "Charge calculation method for the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "remarks_monomer1",
+    "origin": "source_unchanged",
+    "description": "Remarks on the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Python_ver_monomer1",
+    "origin": "source_unchanged",
+    "description": "Python version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 13110,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "RadonPy_ver_monomer1",
+    "origin": "source_unchanged",
+    "description": "RadonPy version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 13110,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "RDKit_ver_monomer1",
+    "origin": "source_unchanged",
+    "description": "RDKit version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Psi4_ver_monomer1",
+    "origin": "source_unchanged",
+    "description": "Psi4 version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "LAMMPS_ver_monomer1",
+    "origin": "source_unchanged",
+    "description": "LAMMPS version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "mol_weight_monomer1",
+    "origin": "source_unchanged",
+    "description": "Molecular weight of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14845,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "vdw_volume_monomer1",
+    "origin": "source_unchanged",
+    "description": "van der Waals volume of the first repeating unit (unit: angstroms^3)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14845,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_total_energy_monomer1",
+    "origin": "source_unchanged",
+    "description": "Total energy obtained from the QM calculation of the first repeating unit (unit: hartree)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14841,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_homo_monomer1",
+    "origin": "source_unchanged",
+    "description": "HOMO energy of the first repeating unit (unit: eV)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14841,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_lumo_monomer1",
+    "origin": "source_unchanged",
+    "description": "LUMO energy of the first repeating unit (unit: eV)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14841,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_x_monomer1",
+    "origin": "source_unchanged",
+    "description": "x-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 14841,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "qm_dipole_y_monomer1",
+    "origin": "source_unchanged",
+    "description": "y-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 14841,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "qm_dipole_z_monomer1",
+    "origin": "source_unchanged",
+    "description": "z-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 14841,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "qm_polarizability_monomer1",
+    "origin": "source_unchanged",
+    "description": "Polarizability of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 14774,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "qm_polarizability_xx_monomer1",
+    "origin": "source_unchanged",
+    "description": "xx-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 14776,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_yy_monomer1",
+    "origin": "source_unchanged",
+    "description": "yy-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 14775,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_zz_monomer1",
+    "origin": "source_unchanged",
+    "description": "zz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 14778,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xy_monomer1",
+    "origin": "source_unchanged",
+    "description": "xy-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 14774,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xz_monomer1",
+    "origin": "source_unchanged",
+    "description": "xz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 14776,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_yz_monomer1",
+    "origin": "source_unchanged",
+    "description": "yz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 14775,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "smiles_2",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": 0
+  },
+  {
+    "column": "monomer_ID_2",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "copoly_ratio_2",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": 0
+  },
+  {
+    "column": "qm_method_monomer2",
+    "origin": "source_unchanged",
+    "description": "QM calculation method for the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "charge_monomer2",
+    "origin": "source_unchanged",
+    "description": "Charge calculation method for the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "remarks_monomer2",
+    "origin": "source_unchanged",
+    "description": "Remarks on the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Python_ver_monomer2",
+    "origin": "source_unchanged",
+    "description": "Python version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "RadonPy_ver_monomer2",
+    "origin": "source_unchanged",
+    "description": "RadonPy version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "RDKit_ver_monomer2",
+    "origin": "source_unchanged",
+    "description": "RDKit version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Psi4_ver_monomer2",
+    "origin": "source_unchanged",
+    "description": "Psi4 version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "LAMMPS_ver_monomer2",
+    "origin": "source_unchanged",
+    "description": "LAMMPS version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "mol_weight_monomer2",
+    "origin": "source_unchanged",
+    "description": "Molecular weight of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "vdw_volume_monomer2",
+    "origin": "source_unchanged",
+    "description": "van der Waals volume of the first repeating unit (unit: angstroms^3)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_total_energy_monomer2",
+    "origin": "source_unchanged",
+    "description": "Total energy obtained from the QM calculation of the first repeating unit (unit: hartree)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_homo_monomer2",
+    "origin": "source_unchanged",
+    "description": "HOMO energy of the first repeating unit (unit: eV)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_lumo_monomer2",
+    "origin": "source_unchanged",
+    "description": "LUMO energy of the first repeating unit (unit: eV)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_x_monomer2",
+    "origin": "source_unchanged",
+    "description": "x-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_y_monomer2",
+    "origin": "source_unchanged",
+    "description": "y-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_z_monomer2",
+    "origin": "source_unchanged",
+    "description": "z-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_monomer2",
+    "origin": "source_unchanged",
+    "description": "Polarizability of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xx_monomer2",
+    "origin": "source_unchanged",
+    "description": "xx-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_yy_monomer2",
+    "origin": "source_unchanged",
+    "description": "yy-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_zz_monomer2",
+    "origin": "source_unchanged",
+    "description": "zz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xy_monomer2",
+    "origin": "source_unchanged",
+    "description": "xy-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xz_monomer2",
+    "origin": "source_unchanged",
+    "description": "xz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_yz_monomer2",
+    "origin": "source_unchanged",
+    "description": "yz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "smiles_3",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": 0
+  },
+  {
+    "column": "monomer_ID_3",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "copoly_ratio_3",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": 0
+  },
+  {
+    "column": "qm_method_monomer3",
+    "origin": "source_unchanged",
+    "description": "QM calculation method for the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "charge_monomer3",
+    "origin": "source_unchanged",
+    "description": "Charge calculation method for the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "remarks_monomer3",
+    "origin": "source_unchanged",
+    "description": "Remarks on the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Python_ver_monomer3",
+    "origin": "source_unchanged",
+    "description": "Python version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "RadonPy_ver_monomer3",
+    "origin": "source_unchanged",
+    "description": "RadonPy version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "RDKit_ver_monomer3",
+    "origin": "source_unchanged",
+    "description": "RDKit version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Psi4_ver_monomer3",
+    "origin": "source_unchanged",
+    "description": "Psi4 version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "LAMMPS_ver_monomer3",
+    "origin": "source_unchanged",
+    "description": "LAMMPS version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "mol_weight_monomer3",
+    "origin": "source_unchanged",
+    "description": "Molecular weight of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "vdw_volume_monomer3",
+    "origin": "source_unchanged",
+    "description": "van der Waals volume of the first repeating unit (unit: angstroms^3)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_total_energy_monomer3",
+    "origin": "source_unchanged",
+    "description": "Total energy obtained from the QM calculation of the first repeating unit (unit: hartree)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_homo_monomer3",
+    "origin": "source_unchanged",
+    "description": "HOMO energy of the first repeating unit (unit: eV)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_lumo_monomer3",
+    "origin": "source_unchanged",
+    "description": "LUMO energy of the first repeating unit (unit: eV)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_x_monomer3",
+    "origin": "source_unchanged",
+    "description": "x-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_y_monomer3",
+    "origin": "source_unchanged",
+    "description": "y-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_z_monomer3",
+    "origin": "source_unchanged",
+    "description": "z-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_monomer3",
+    "origin": "source_unchanged",
+    "description": "Polarizability of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xx_monomer3",
+    "origin": "source_unchanged",
+    "description": "xx-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_yy_monomer3",
+    "origin": "source_unchanged",
+    "description": "yy-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_zz_monomer3",
+    "origin": "source_unchanged",
+    "description": "zz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xy_monomer3",
+    "origin": "source_unchanged",
+    "description": "xy-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xz_monomer3",
+    "origin": "source_unchanged",
+    "description": "xz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_yz_monomer3",
+    "origin": "source_unchanged",
+    "description": "yz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "smiles_4",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": 0
+  },
+  {
+    "column": "monomer_ID_4",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "copoly_ratio_4",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": 0
+  },
+  {
+    "column": "qm_method_monomer4",
+    "origin": "source_unchanged",
+    "description": "QM calculation method for the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "charge_monomer4",
+    "origin": "source_unchanged",
+    "description": "Charge calculation method for the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "remarks_monomer4",
+    "origin": "source_unchanged",
+    "description": "Remarks on the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Python_ver_monomer4",
+    "origin": "source_unchanged",
+    "description": "Python version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "RadonPy_ver_monomer4",
+    "origin": "source_unchanged",
+    "description": "RadonPy version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "RDKit_ver_monomer4",
+    "origin": "source_unchanged",
+    "description": "RDKit version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Psi4_ver_monomer4",
+    "origin": "source_unchanged",
+    "description": "Psi4 version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "LAMMPS_ver_monomer4",
+    "origin": "source_unchanged",
+    "description": "LAMMPS version used for the QM calculation of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "mol_weight_monomer4",
+    "origin": "source_unchanged",
+    "description": "Molecular weight of the first repeating unit",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "vdw_volume_monomer4",
+    "origin": "source_unchanged",
+    "description": "van der Waals volume of the first repeating unit (unit: angstroms^3)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_total_energy_monomer4",
+    "origin": "source_unchanged",
+    "description": "Total energy obtained from the QM calculation of the first repeating unit (unit: hartree)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_homo_monomer4",
+    "origin": "source_unchanged",
+    "description": "HOMO energy of the first repeating unit (unit: eV)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_lumo_monomer4",
+    "origin": "source_unchanged",
+    "description": "LUMO energy of the first repeating unit (unit: eV)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_x_monomer4",
+    "origin": "source_unchanged",
+    "description": "x-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_y_monomer4",
+    "origin": "source_unchanged",
+    "description": "y-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_z_monomer4",
+    "origin": "source_unchanged",
+    "description": "z-component of the dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_monomer4",
+    "origin": "source_unchanged",
+    "description": "Polarizability of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xx_monomer4",
+    "origin": "source_unchanged",
+    "description": "xx-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_yy_monomer4",
+    "origin": "source_unchanged",
+    "description": "yy-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_zz_monomer4",
+    "origin": "source_unchanged",
+    "description": "zz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xy_monomer4",
+    "origin": "source_unchanged",
+    "description": "xy-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_xz_monomer4",
+    "origin": "source_unchanged",
+    "description": "xz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_yz_monomer4",
+    "origin": "source_unchanged",
+    "description": "yz-component of the polarizability tensor of the first repeating unit (unit: angstroms^3)",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "n_mol",
+    "origin": "source_unchanged",
+    "description": "Number of molecules in the simulation cell",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "n_atom",
+    "origin": "source_unchanged",
+    "description": "Number of atoms per molecule",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "n_atom_mean",
+    "origin": "source_unchanged",
+    "description": "Mean number of atoms per molecule",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "n_atom_var",
+    "origin": "source_unchanged",
+    "description": "Variance of the number of atoms per molecule",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "mol_weight",
+    "origin": "source_unchanged",
+    "description": "Molecular weight of each molecule",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Mn",
+    "origin": "source_unchanged",
+    "description": "Number-average molecular weight",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Mw",
+    "origin": "source_unchanged",
+    "description": "Weight-average molecular weight",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Mw/Mn",
+    "origin": "source_unchanged",
+    "description": "Ratio of Mw to Mn",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Rg",
+    "origin": "source_unchanged",
+    "description": "Radius of gyration (unit: angstroms)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Scaled Rg",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "self-diffusion",
+    "origin": "source_unchanged",
+    "description": "Self-diffusion coefficient (unit: m^2/s)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14902,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Cp",
+    "origin": "source_unchanged",
+    "description": "Specific heat capacity at constant pressure (unit: J/(kg K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14902,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "Cv",
+    "origin": "source_unchanged",
+    "description": "Specific heat capacity at constant volume (unit: J/(kg K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14902,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "compressibility",
+    "origin": "source_unchanged",
+    "description": "Compressibility (unit: 1/Pa)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14902,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "isentropic_compressibility",
+    "origin": "source_unchanged",
+    "description": "Isentropic compressibility (unit: 1/Pa)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14902,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "bulk_modulus",
+    "origin": "source_unchanged",
+    "description": "Bulk modulus (unit: Pa)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14902,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "isentropic_bulk_modulus",
+    "origin": "source_unchanged",
+    "description": "Isentropic bulk modulus (unit: Pa)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14902,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "volume_expansion",
+    "origin": "source_unchanged",
+    "description": "Volumetric thermal expansion coefficient (unit: 1/K)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14902,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "linear_expansion",
+    "origin": "source_unchanged",
+    "description": "Linear thermal expansion coefficient (unit: 1/K)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14902,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "r2",
+    "origin": "source_unchanged",
+    "description": "평균제곱 말단간 거리 관련 평형 속성; EFDP fit R^2 아님",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14855,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "nematic_order_parameter",
+    "origin": "source_unchanged",
+    "description": "Orientational order parameter of the repeating unit or molecule",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "thermal_conductivity",
+    "origin": "source_unchanged",
+    "description": "Thermal conductivity (unit: W/(m K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "thermal_diffusivity",
+    "origin": "source_unchanged",
+    "description": "Thermal diffusivity (unit: m^2/s)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12934,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "TC_ke",
+    "origin": "source_unchanged",
+    "description": "Component decomposition of thermal conductivity: kinetic energy term (unit: W/(m K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "TC_pe",
+    "origin": "source_unchanged",
+    "description": "Component decomposition of thermal conductivity: potential energy term (unit: W/(m K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "TC_pair",
+    "origin": "source_unchanged",
+    "description": "Component decomposition of thermal conductivity: electrostatic, excluding long-range contribution, and vdW term (unit: W/(m K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "TC_bond",
+    "origin": "source_unchanged",
+    "description": "Component decomposition of thermal conductivity: bond term (unit: W/(m K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "TC_angle",
+    "origin": "source_unchanged",
+    "description": "Component decomposition of thermal conductivity: angle term (unit: W/(m K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "TC_dihed",
+    "origin": "source_unchanged",
+    "description": "Component decomposition of thermal conductivity: dihedral term (unit: W/(m K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "TC_improper",
+    "origin": "source_unchanged",
+    "description": "Component decomposition of thermal conductivity: improper term (unit: W/(m K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "TC_kspace",
+    "origin": "source_unchanged",
+    "description": "Component decomposition of thermal conductivity: long-range electrostatic term (unit: W/(m K))",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "TC_fix",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 12941,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "preset_tg_ver",
+    "origin": "source_unchanged",
+    "description": "Version of the equilibration preset used",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_next_temp",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_init_density",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_init_density_check",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_max_temp",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_min_temp",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_cooling_rate",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_interval_temp",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg",
+    "origin": "source_unchanged",
+    "description": "Glass transition temperature (unit: K)",
+    "unit": "K",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_rmse",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_thermal_expansion_coef(upper_tg)",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_thermal_expansion_intercept(upper_tg)",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_thermal_expansion_coef(below_tg)",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "tg_thermal_expansion_intercept(below_tg)",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 8626,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "preset_sp_ver",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7683,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "sp_ced",
+    "origin": "source_unchanged",
+    "description": "Cohesive energy density (unit: J cm^-3)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7683,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "sp_total",
+    "origin": "source_unchanged",
+    "description": "Hildebrand solubility parameter (unit: MPa^0.5)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7683,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "sp_vdw",
+    "origin": "source_unchanged",
+    "description": "Dispersion-force contribution to the solubility parameter (unit: MPa^0.5)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7683,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "sp_ele",
+    "origin": "source_unchanged",
+    "description": "Electrostatic interaction contribution to the solubility parameter, corresponding to the sum of the polar and hydrogen-bonding contributions in the Hansen solubility parameters (unit: MPa^0.5)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7683,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "sp_ele_short",
+    "origin": "source_unchanged",
+    "description": "Short-range component of the electrostatic interaction contribution to the solubility parameter, calculated as the pairwise Coulomb interaction term in the MD calculation (unit: MPa^0.5)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7683,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "sp_ele_long",
+    "origin": "source_unchanged",
+    "description": "Long-range component of the electrostatic interaction contribution to the solubility parameter, calculated using PPPM in the MD calculation (unit: MPa^0.5)",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7683,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PHYC",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PSTR",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PVNL",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PACR",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PHAL",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PDIE",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_POXI",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PSUL",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PEST",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PAMD",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PURT",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PURA",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PANH",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PCBN",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PIMN",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PSIL",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PPHS",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PKTN",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PSFO",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "class_PPNL",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "cellulose_position",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "cellulose_ds",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "forcefield",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 14909,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "cel_ds",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_monomer1",
+    "origin": "source_unchanged",
+    "description": "The dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 14841,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "qm_polarizability_sos_486_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_486_xx_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_486_yy_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_486_zz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_486_xy_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_486_xz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_486_yz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_589_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_589_xx_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_589_yy_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_589_zz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_589_xy_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_589_xz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_589_yz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_656_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_656_xx_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_656_yy_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_656_zz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_656_xy_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_656_xz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_656_yz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조. 광학 파장 486/589/656 nm 표기이며 GHz 아님.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_xx_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_yy_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_zz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_xy_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_xz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_polarizability_sos_yz_monomer1",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "angstrom^3",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "refractive_index_sos_486",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "refractive_index_sos_589",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "refractive_index_sos_656",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "refractive_index_sos",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "dimensionless",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "abbe_number_sos",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 876,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "vdw_volume_bulk",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7342,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "cell_volume",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7342,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "free_volume",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7342,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "fractional_free_volume",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 7342,
+    "nonempty_dynamic_rows": 59
+  },
+  {
+    "column": "qm_dipole_monomer2",
+    "origin": "source_unchanged",
+    "description": "The dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_monomer3",
+    "origin": "source_unchanged",
+    "description": "The dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "qm_dipole_monomer4",
+    "origin": "source_unchanged",
+    "description": "The dipole moment of the first repeating unit (unit: debye)",
+    "unit": "Debye",
+    "nonempty_imide_rows": 4758,
+    "nonempty_dynamic_rows": null
+  },
+  {
+    "column": "linker_length",
+    "origin": "source_unchanged",
+    "description": "원본 PolyOmics 열 그대로 보존. 원본 README 및 논문 Table S3 참조.",
+    "unit": "see_original_description",
+    "nonempty_imide_rows": 0,
+    "nonempty_dynamic_rows": null
+  }
+]

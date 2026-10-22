@@ -1,0 +1,19 @@
+{
+  "source_rows_reviewed": 176096,
+  "independent_graph_membership_rows": 14909,
+  "membership_matches_exactly": true,
+  "missing_uuids": [],
+  "extra_uuids": [],
+  "static_identity_available": 14773,
+  "static_identity_close_rtol_1e_4": 14773,
+  "static_identity_max_abs_residual": 9.736841377616656e-08,
+  "dipole_identity_available": 14841,
+  "dipole_identity_close_rtol_1e_4": 14841,
+  "dipole_identity_max_abs_residual": 9.577432180662981e-09,
+  "dynamic_unique_monomer_ids": 43,
+  "dynamic_unique_repeat_smiles": 43,
+  "dynamic_conventional_unique_repeat_smiles": 35,
+  "full_complete_component_signature_count": 8538,
+  "conventional_imide_rows_without_dynamic_data": 11634,
+  "dynamic_records_all_equilibrated": true
+}
